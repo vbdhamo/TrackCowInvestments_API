@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Acadamic Year" xml:space="preserve">
+    <value>bdbca9a7</value>
+  </data>
+  <data name="AddressType" xml:space="preserve">
+    <value>a2e00299</value>
+  </data>
+  <data name="ApproveBlogNotification" xml:space="preserve">
+    <value>4ba80130</value>
+  </data>
+  <data name="ApproveGroupNotfiecation" xml:space="preserve">
+    <value>5bacc3e4</value>
+  </data>
+  <data name="CBT" xml:space="preserve">
+    <value>84f10760</value>
+  </data>
+  <data name="Certification" xml:space="preserve">
+    <value>4a74376a</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>d5040bff</value>
+  </data>
+  <data name="ContactUs" xml:space="preserve">
+    <value>28866c50</value>
+  </data>
+  <data name="ContentType" xml:space="preserve">
+    <value>024f7150</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>ab0b614c</value>
+  </data>
+  <data name="Course" xml:space="preserve">
+    <value>16d390dc</value>
+  </data>
+  <data name="Course Year" xml:space="preserve">
+    <value>a99f0edc</value>
+  </data>
+  <data name="CourseAssignment" xml:space="preserve">
+    <value>ab1585b3</value>
+  </data>
+  <data name="CoursePayments" xml:space="preserve">
+    <value>b795a10d</value>
+  </data>
+  <data name="Courseware" xml:space="preserve">
+    <value>4ced13e4</value>
+  </data>
+  <data name="CustomUrlNotification" xml:space="preserve">
+    <value>b2cf1690</value>
+  </data>
+  <data name="Demonstration_Type" xml:space="preserve">
+    <value>d61f9eca</value>
+  </data>
+  <data name="District" xml:space="preserve">
+    <value>428f97c6</value>
+  </data>
+  <data name="Documents" xml:space="preserve">
+    <value>84f10760</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>d5a152b3</value>
+  </data>
+  <data name="EmployementStatus" xml:space="preserve">
+    <value>3a4338ae</value>
+  </data>
+  <data name="EmployementType" xml:space="preserve">
+    <value>46652623</value>
+  </data>
+  <data name="EventType" xml:space="preserve">
+    <value>cc3eb25f</value>
+  </data>
+  <data name="FAQs" xml:space="preserve">
+    <value>aad60388</value>
+  </data>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>2fa1c39e</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>6cb13da6</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>48acc59f</value>
+  </data>
+  <data name="LogType" xml:space="preserve">
+    <value>8b3b221a</value>
+  </data>
+  <data name="MaritalStatus" xml:space="preserve">
+    <value>b1b5c0e5</value>
+  </data>
+  <data name="Member" xml:space="preserve">
+    <value>3a7872f9</value>
+  </data>
+  <data name="MultiAnswer" xml:space="preserve">
+    <value>39080bf1</value>
+  </data>
+  <data name="MultiChoice" xml:space="preserve">
+    <value>dd57541d</value>
+  </data>
+  <data name="Online" xml:space="preserve">
+    <value>1632fb7f</value>
+  </data>
+  <data name="OnlineMaterial" xml:space="preserve">
+    <value>1632fb7f</value>
+  </data>
+  <data name="Organization" xml:space="preserve">
+    <value>daa8956f</value>
+  </data>
+  <data name="Percentage" xml:space="preserve">
+    <value>1ac8a2c6</value>
+  </data>
+  <data name="Poll" xml:space="preserve">
+    <value>a02a5d0d</value>
+  </data>
+  <data name="PostAssessment" xml:space="preserve">
+    <value>86f3344d</value>
+  </data>
+  <data name="PostAssessmentNotification" xml:space="preserve">
+    <value>2524aa00</value>
+  </data>
+  <data name="PreAssessment" xml:space="preserve">
+    <value>0701774e</value>
+  </data>
+  <data name="Priviliges" xml:space="preserve">
+    <value>fb332dc3</value>
+  </data>
+  <data name="ProficiencyLevel" xml:space="preserve">
+    <value>c8a33817</value>
+  </data>
+  <data name="ProjectLocation" xml:space="preserve">
+    <value>521a408c</value>
+  </data>
+  <data name="ProjectLocationType" xml:space="preserve">
+    <value>8594a646</value>
+  </data>
+  <data name="RegisterationNotification" xml:space="preserve">
+    <value>e2dd28ef</value>
+  </data>
+  <data name="Sections" xml:space="preserve">
+    <value>a2c992da</value>
+  </data>
+  <data name="Semester" xml:space="preserve">
+    <value>b118864f</value>
+  </data>
+  <data name="Sms" xml:space="preserve">
+    <value>e71158bc</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>8770eec8</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>3791650a</value>
+  </data>
+  <data name="SubscriptionNotification" xml:space="preserve">
+    <value>02e1d48e</value>
+  </data>
+  <data name="Survey" xml:space="preserve">
+    <value>4d3316f3</value>
+  </data>
+  <data name="TaskType" xml:space="preserve">
+    <value>6b3e15ca</value>
+    <comment>Task types</comment>
+  </data>
+  <data name="TextAnswer" xml:space="preserve">
+    <value>797537f0</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>8f3db27e</value>
+  </data>
+  <data name="UserType" xml:space="preserve">
+    <value>8a03f1c4</value>
+  </data>
+  <data name="VideoConference" xml:space="preserve">
+    <value>b918e5c8</value>
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value>6ec3a5ba</value>
+  </data>
+  <data name="YesNo" xml:space="preserve">
+    <value>fbd5afa6</value>
+  </data>
+</root>

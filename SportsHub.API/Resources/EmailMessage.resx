@@ -1,0 +1,973 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Accessorvalidationsubject" xml:space="preserve">
+    <value>Assessment for Validation</value>
+  </data>
+  <data name="AssessmentMail" xml:space="preserve">
+    <value>Assessment Schedule</value>
+  </data>
+  <data name="AssessmentMessage" xml:space="preserve">
+    <value>&lt;table style="width: 100%;border: 1px solid #C3C3C5;border-radius: 10px;" cellpadding="0" cellspacing="0"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Dear User,&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;{0},{1} have been scheduled for the course {2} &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;Please find the course details below:&lt;/td&gt;&lt;/tr&gt;
+ &lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Course Name:{3}&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;Assessment Type:{4}&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;Schedule date:{5}&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;Time:{6}&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;Login to DATAM LMS 10 min before the scheduled time to access the test.
+All the best!!!
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Thanks &amp;amp; Regards, &amp;nbsp;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px;font-weight:bold"&gt;&lt;b&gt;{7}&lt;/b&gt; &amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px;font-weight:bold"&gt;&lt;b&gt;Note: This is an automated email. Kindly do not reply to this mail.&lt;/b&gt; &amp;nbsp;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;</value>
+  </data>
+  <data name="AssessmentResult" xml:space="preserve">
+    <value>Assessment Result</value>
+  </data>
+  <data name="AssessmentResultStudent" xml:space="preserve">
+    <value>&lt;table style="width: 100%;border: 1px solid #C3C3C5;border-radius: 10px;" cellpadding="0" cellspacing="0"&gt;
+&lt;tbody&gt;&lt;tr&gt;&lt;td style="width: 100%;background-color: #C3C3C5;height: 60px;color: #45748F;font-size: large;border-top-left-radius: 10px;border-top-right-radius: 10px;"&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;{0}&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Dear {1},&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;{2}You have completed your Assessment to the course &lt;course name=""&gt;{3} &lt;/course&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;Please find the result below:&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%"&gt;&lt;br&gt;&lt;table style="width: 80%;background-color: #ddd8d8;height: 60px;border-radius: 10px;" align="center"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Assessment Name : &amp;nbsp;&amp;nbsp;&lt;b&gt;{4}&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Course Name:&lt;b&gt;{5}&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Percentage Scored:&amp;nbsp;&lt;b&gt;{6}&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Result:&amp;nbsp;&lt;b&gt;{7}&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Thanks and Regards, &amp;nbsp;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px;font-weight:bold"&gt;&lt;b&gt;{8}&lt;/b&gt; &amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; This is an automated email. Kindly do not reply to this mail.&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;</value>
+  </data>
+  <data name="AssessmentScheduleOutlook" xml:space="preserve">
+    <value>&lt;table style="width: 100%;border: 1px solid #C3C3C5;border-radius: 10px;" cellpadding="0" cellspacing="0"&gt;
+&lt;tbody&gt;&lt;tr&gt;&lt;td style="width: 100%;background-color: #C3C3C5;height: 60px;color: #45748F;font-size: large;border-top-left-radius: 10px;border-top-right-radius: 10px;"&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;{0}&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Dear User,&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;{1},{2} have been scheduled for the course {3} &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Please find the course details below:&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%"&gt;&lt;br&gt;&lt;table style="width: 80%;background-color: #ddd8d8;height: 60px;border-radius: 10px;" align="center"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Course Name : &amp;nbsp;&amp;nbsp;&lt;b&gt;{4}&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Assessment Type:&lt;b&gt;{5}&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Login to LMS 10 min before the scheduled time to access the test. All the best!!!&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Thanks and Regards, &amp;nbsp;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px;font-weight:bold"&gt;&lt;b&gt;{6}&lt;/b&gt; &amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px;"&gt;&lt;b&gt;Note:&lt;/b&gt; This is an automated email. Kindly do not reply to this mail. &amp;nbsp;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;</value>
+  </data>
+  <data name="AssessmentValidated" xml:space="preserve">
+    <value>&lt;table style="width: 100%;border: 1px solid #C3C3C5;border-radius: 10px;" cellpadding="0" cellspacing="0"&gt;
+&lt;tbody&gt;&lt;tr&gt;&lt;td style="width: 100%;background-color: #C3C3C5;height: 60px;color: #45748F;font-size: large;border-top-left-radius: 10px;border-top-right-radius: 10px;"&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;{0}&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Dear {1},&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Your assessment has been validated by trainer,
+Please check in my assessment screen for result status.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;Please find the course Details below:&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%"&gt;&lt;br&gt;&lt;table style="width: 80%;background-color: #ddd8d8;height: 60px;border-radius: 10px;" align="center"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Assessment Name : &amp;nbsp;&amp;nbsp;&lt;b&gt;{2}&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Course Name:&lt;b&gt;{3}&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Thanks and Regards, &amp;nbsp;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px;font-weight:bold"&gt;&lt;b&gt;{4}&lt;/b&gt; &amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; This is an automated email. Kindly do not reply to this mail.&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;</value>
+  </data>
+  <data name="AssignTrainer" xml:space="preserve">
+    <value>Assigned to new course</value>
+  </data>
+  <data name="AssignTrainerDetails" xml:space="preserve">
+    <value>&lt;p&gt;Dear Trainer&lt;br&gt;&lt;br&gt;
+
+You have assigned to the new course &lt;br&gt;&lt;br&gt;
+
+Thanks and Regards,&lt;br&gt;
+{0}.&lt;/p&gt;</value>
+  </data>
+  <data name="AttemptsDetails" xml:space="preserve">
+    <value>&lt;p&gt;Dear User&lt;br&gt;&lt;br&gt;
+
+Your No. of Attempts left is Zero.Please Contact Administrator &lt;br&gt;&lt;br&gt;
+
+Thanks and Regards,&lt;br&gt;
+{0}.&lt;/p&gt;</value>
+  </data>
+  <data name="AttemptsSub" xml:space="preserve">
+    <value>No. of Attempts finished</value>
+  </data>
+  <data name="Blogdecline" xml:space="preserve">
+    <value>&lt;table style="width: 100%;border: 1px solid #C3C3C5;border-radius: 10px;" cellpadding="0" cellspacing="0"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Dear User,&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;Your Blog is Declined&lt;br&gt;&lt;br&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Thanks and Regards,&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;b&gt;Admin&lt;/b&gt; &amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt; Note: You may retain this e-mail for your future records.&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;</value>
+  </data>
+  <data name="blogdeclinesubject" xml:space="preserve">
+    <value>Blog Declined</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>&lt;br /&gt;&lt;table style='width: 100%' cellpadding='0' cellspacing='0'&gt;
+        &lt;tr&gt;&lt;td style='width: 10%'&gt;&lt;/td&gt;&lt;td style='width: 80%'&gt;
+        &lt;table style='width: 100%;border: 1px solid #C3C3C5;border-radius: 10px;' cellpadding='0' cellspacing='0'&gt;
+       &lt;tr&gt;&lt;td style='width: 100%;background-color: #C3C3C5;height: 60px;color: #45748F;font-size: large;border-top-left-radius: 10px;border-top-right-radius: 10px;'&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;Password Recovery&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td style='width: 100%; padding-left: 20px; padding-right: 20px'&gt;&lt;br /&gt;&lt;br /&gt;Dear {0} {1},&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td style='width: 100%; padding-left: 20px; padding-right: 20px'&gt;Please return to &lt;a href='{4}'&gt;DatamEdu.com&lt;/a&gt; and log-in using the following credentials.&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td style='width: 100%'&gt;&lt;br /&gt;&lt;table style='width: 80%;background-color: #ddd8d8;height: 60px;border-radius: 10px;' align='center'&gt;&lt;tr&gt;&lt;td&gt;Email Address(Username) : &amp;nbsp;&amp;nbsp;&lt;b&gt; {2} &lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td&gt;Password &amp;nbsp;:&amp;nbsp;&lt;b&gt; {3} &lt;/b&gt;&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td style='width: 100%' align='right'&gt;&lt;br /&gt;&lt;br /&gt;&lt;b&gt;{4}&lt;/b&gt; &amp;nbsp;&amp;nbsp;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;td style='width: 10%'&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br /&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="ContactUs" xml:space="preserve">
+    <value>&lt;table style="width: 100%"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="width: 5%"&gt;&lt;/td&gt;&lt;td style="width: 70%"&gt;&lt;br&gt;&lt;table style="width: 100%"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="width: 5%"&gt;&lt;/td&gt;&lt;td style="width: 70%"&gt;&lt;table style="width: 100%;border: 1px solid #C3C3C5;border-radius: 10px;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align="center" style="width: 100%;background-color: #C3C3C5;height: 60px;color: #45748F;font-size: large;border-top-left-radius: 10px;border-top-right-radius: 10px;"&gt;Contact Us&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="center"&gt;&lt;br&gt;&lt;span style="font-size:medium;text-decoration:underline"&gt;{0}&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;Dear Admin/Trainer,&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;{2}&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thanks and Regards,&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;{3}.&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Note. This is an automated email. Kindly do not reply to this mail.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</value>
+  </data>
+  <data name="ContactUSExternal" xml:space="preserve">
+    <value>&lt;br /&gt;&lt;table style='width: 100%'&gt;&lt;tr&gt;&lt;td style='width: 5%'&gt;&lt;/td&gt;&lt;td style='width: 70%'&gt;&lt;table style='width: 100%;border: 1px solid #C3C3C5;border-radius: 10px;'&gt;&lt;tr&gt;&lt;td align='center' style='width: 100%;background-color: #C3C3C5;height: 60px;color: #45748F;font-size: large;border-top-left-radius: 10px;border-top-right-radius: 10px;'&gt;Contact Us&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br /&gt;Dear {0},&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Details of the User mentioned below.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;table style='padding-left: 20px; padding-right: 20px'&gt;&lt;tr&gt;&lt;td&gt;User name: {1} &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Designation: {2} &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Email ID: {3}&lt;/td&gt;&lt;tr&gt;&lt;td&gt;Contact No: {4} &lt;/td&gt;&lt;/tr&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Location : {5} &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Contact Purpose: {6}&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Subject: {7}&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Description: {8}&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thanks and Regards,&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Admin.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td &gt;Note. This is an automated email.Kindly do not reply to this mail.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</value>
+  </data>
+  <data name="ContactUsMail" xml:space="preserve">
+    <value>&lt;table style="width: 100%"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="width: 5%"&gt;&lt;/td&gt;&lt;td style="width: 70%"&gt;&lt;br&gt;&lt;table style="width: 100%"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="width: 5%"&gt;&lt;/td&gt;&lt;td style="width: 70%"&gt;&lt;table style="width: 100%;border: 1px solid #C3C3C5;border-radius: 10px;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align="center" style="width: 100%;background-color: #C3C3C5;height: 60px;color: #45748F;font-size: large;border-top-left-radius: 10px;border-top-right-radius: 10px;"&gt;Contact Us&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td align="center"&gt;&lt;br&gt;&lt;span style="font-size:medium;text-decoration:underline"&gt;Enquiry/Complaint&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;Dear Student/Trainer,&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Your request is submitted successfully.
+&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;We would get back as soon as possible.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;Thanks and Regards,&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;{0}.&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Note. This is an automated email. Kindly do not reply to this mail.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</value>
+  </data>
+  <data name="CourseApply" xml:space="preserve">
+    <value>Dear Admin,
+
+I would like to apply for a new course.
+
+Please find the details below.
+
+User Name : {0}
+Course Name : {1}
+Batch : {2}
+Start Date : {3}
+End Date : {4}
+Course Apply Date : {5}
+Learning Mode : {6}
+
+Thanks and Regards,
+{7}</value>
+  </data>
+  <data name="CourseComplete" xml:space="preserve">
+    <value>&lt;html&gt;&lt;body&gt;&lt;Table style='font-family:Arial;font-size:9pt'&gt;&lt;tr&gt;&lt;td style='font-family: Arial'&gt;Dear {0},&lt;br/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style='font-family: Arial'&gt;Congratulations!!!&lt;br&gt;&lt;br/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style='font-family: Verdana'&gt;You have completed the course assigned to you.&lt;br&gt;&lt;br/&gt;&lt;/tr&gt;&lt;/td&gt;&lt;tr&gt;&lt;td&gt;&lt;br/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style='font-family: Verdana'&gt;Thanks and Regards&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt;&lt;td style='font-family: Verdana'&gt;{1}&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style='font-family: Verdana'&gt;Any queries, Contact Admin&lt;br/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style='font-family: Verdana'&gt;Note. This is an automated email.Kindly do not reply to this mail.&lt;br/&gt;&lt;/td&gt;&lt;/tr&gt;</value>
+  </data>
+  <data name="CourseCompletionDetails" xml:space="preserve">
+    <value>LMS Course Completion Details</value>
+  </data>
+  <data name="CourseEnrollementNotification" xml:space="preserve">
+    <value>&lt;table style="width: 100%;border: 1px solid #C3C3C5;border-radius: 10px;" cellpadding="0" cellspacing="0"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Dear {0} {1},&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;You have been successfully enrolled to the course &lt;b&gt;{2}&lt;b&gt;. &lt;/b&gt;&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;Please find the course details below:&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;&lt;br&gt;Course Name : &amp;nbsp;&amp;nbsp;&lt;b&gt;{3}&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;Duration : &amp;nbsp;&amp;nbsp;&lt;b&gt;{4}&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;Trainer &amp;nbsp;:&amp;nbsp;&lt;b&gt;{5}&lt;/b&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Now you can access the course material and start learning&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Thanks and Regards,&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;b&gt;{6}&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;&lt;br&gt;Note: You may retain this e-mail for your future records.&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;</value>
+  </data>
+  <data name="CourseEnrollmentconfirmationSubject" xml:space="preserve">
+    <value>Course Enrollment Confirmation</value>
+  </data>
+  <data name="Courseenrollmentdetailstoadmin" xml:space="preserve">
+    <value>&lt;table style="width: 100%;border: 1px solid #C3C3C5;border-radius: 10px;" cellpadding="0" cellspacing="0"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Dear Admin,&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;The following user has successfully enrolled to the course {0}. &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;Please find the course details below:&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%"&gt;&lt;br&gt;&lt;table style="width: 80%;background-color: #ddd8d8;height: 60px;border-radius: 10px;" align="center"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;User Name :&lt;b&gt;{1}&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Course Name&amp;nbsp;:&lt;b&gt;{2}&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Duration :&lt;b&gt;{3}&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td&gt;Trainer :&lt;b&gt;{4}&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Thanks and Regards, &amp;nbsp;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px;font-weight:bold"&gt;&lt;b&gt;{5}&lt;/b&gt; &amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;
+  &lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px;"&gt;&lt;b&gt;Note:&lt;/b&gt; You may retain this e-mail for your future records.&lt;br&gt; &amp;nbsp;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;</value>
+  </data>
+  <data name="Courseenrollmentdetailstoadminsubjest" xml:space="preserve">
+    <value>Course Enrollment Details</value>
+  </data>
+  <data name="CourseEnrolmentNotification" xml:space="preserve">
+    <value>&lt;table style="width: 100%;border: 1px solid #C3C3C5;border-radius: 10px;" cellpadding="0" cellspacing="0"&gt;
+&lt;tbody&gt;&lt;tr&gt;&lt;td style="width: 100%;background-color: #C3C3C5;height: 60px;color: #45748F;font-size: large;border-top-left-radius: 10px;border-top-right-radius: 10px;"&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;Course Enrollment Confirmation&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Dear {0}  {1},&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;You have been successfully enrolled to the course&amp;nbsp;({2}). &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Please find the course details below:&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td style="width: 100%"&gt;&lt;br&gt;&lt;table style="width: 80%;background-color: #ddd8d8;height: 60px;border-radius: 10px;" align="center"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Course Name : &amp;nbsp;&amp;nbsp;&lt;b&gt;{3}&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;Duration &amp;nbsp;:&amp;nbsp;&lt;b&gt;{4}&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;Trainer  &amp;nbsp;:&amp;nbsp;&lt;b&gt;{5}&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Now you can access the course material and start learning.&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;Thanks and Regards, &amp;nbsp;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px;font-weight:bold"&gt;&lt;b&gt;{6}&lt;/b&gt; &amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px;"&gt;&lt;b&gt;Note:&lt;/b&gt; You may retain this e-mail for your future records. &amp;nbsp;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;</value>
+  </data>
+  <data name="CourseSchedule" xml:space="preserve">
+    <value>Dear {0}, 
+
+Welcome to {1} ! 
+{2}
+Please note that the course duration is {3} days.
+
+You would need to necessarily take the pre assessment test before starting the course.For any assistance, please use the Help Desk on the portal.
+
+Wish you all the best!
+
+Thanks and Regards,
+{4}.</value>
+  </data>
+  <data name="CourseScheduleNoteftoTrainer" xml:space="preserve">
+    <value>&lt;table style="width: 100%" cellpadding="0" cellspacing="0"&gt;
+&lt;tbody&gt;&lt;tr&gt;&lt;td style="width: 10%"&gt;&lt;/td&gt;&lt;td style="width: 80%"&gt;
+&lt;table style="width: 100%;border: 1px solid #C3C3C5;border-radius: 10px;" cellpadding="0" cellspacing="0"&gt;
+&lt;tbody&gt;&lt;tr&gt;&lt;td style="width: 100%; background-color: rgb(195, 195, 197); height: 60px; color: rgb(69, 116, 143); font-size: large; border-top-left-radius: 10px; border-top-right-radius: 10px; padding-left: 40px;"&gt;{0}&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Dear {1},&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;You have been assigned to the course ({2}). &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;Please find the course details below:&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%"&gt;&lt;br&gt;&lt;table style="width: 80%;background-color: #ddd8d8;height: 60px;border-radius: 10px;" align="center"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Course Name : &amp;nbsp;&amp;nbsp;&lt;b&gt;{3}&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Duration &amp;nbsp;:&amp;nbsp;&lt;b&gt;{4}&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Course Schedule  &amp;nbsp;:&lt;b&gt;{5}&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Thanks and Regards,&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;b&gt;{6}&lt;b&gt;&lt;/b&gt;&lt;/b&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt;You may retain this e-mail for your future records.&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;br&gt;&lt;/td&gt;&lt;td style="width: 100%"&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</value>
+  </data>
+  <data name="CourseScheduleNoteftoTrainerSub" xml:space="preserve">
+    <value>Assigned Course</value>
+  </data>
+  <data name="CourseScheduleOutlook" xml:space="preserve">
+    <value>&lt;html&gt;&lt;body&gt;&lt;table style='font-family:arial;font-size:9pt'&gt;&lt;tr&gt;&lt;td style='font-family: arial'&gt; Dear {0}, &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style='font-family: arial'&gt;Welcome to {1} !&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;{2}&lt;br/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style='font-family: arial'&gt;Please note that the course duration is {3} days&lt;br/&gt;&lt;br/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style='font-family: arial'&gt;You would need to necessarily take the pre assessment test before starting the course.For any assistance, please use the Help Desk on the portal.&lt;br/&gt;&lt;br/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style='font-family: arial'&gt;Wish you all the best!&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style='font-family: arial'&gt;Thanks and Regards,&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style='font-family: arial'&gt;{4}.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style='font-family: arial'&gt;Note. This is an automated email.Kindly do not reply to this mail.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br/&gt;&lt;/td&gt;&lt;/tr&gt;</value>
+  </data>
+  <data name="CourseScheduleSub" xml:space="preserve">
+    <value>
+Fellow users registered for the same course are 
+
+{0}
+</value>
+  </data>
+  <data name="CourseScheduleSubOutlook" xml:space="preserve">
+    <value>&lt;tr&gt;&lt;td style='font-family: arial'&gt;Fellow users registered for the same course are &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;{0}&lt;/td&gt;&lt;/tr&gt;</value>
+  </data>
+  <data name="CustomURLEmail" xml:space="preserve">
+    <value>&lt;br /&gt;&lt;table style='width: 100%' cellpadding='0' cellspacing='0'&gt;
+&lt;tr&gt;&lt;td style='width: 10%'&gt;&lt;/td&gt;&lt;td style='width: 80%'&gt;
+&lt;table style='width: 100%;border: 1px solid #C3C3C5;border-radius: 10px;' 
+
+cellpadding='0' cellspacing='0'&gt;
+&lt;tr&gt;&lt;td style='width: 100%;background-color: #C3C3C5;height: 60px;color: 
+
+#45748F;font-size: large;border-top-left-radius: 10px;border-top-right-radius: 
+
+10px;'&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;Registration URL&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style='width: 100%; padding-left: 20px; padding-right: 20px'&gt;&lt;br /&gt;&lt;br 
+
+/&gt;Dear user,&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style='width: 100%; padding-left: 20px; padding-right: 20px'&gt;&lt;br 
+
+/&gt;Please click the below url to register into the LMS 
+
+application.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style='width: 100%; padding-left: 20px; padding-
+
+right: 20px'&gt;&lt;br /&gt;&lt;a href={0}&gt;{1}&lt;/a&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style='width: 
+
+100%; padding-left: 20px; padding-right: 20px'&gt;&lt;br /&gt;&lt;br/&gt;Thanks &amp; Regards,&lt;br 
+
+/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style='width: 100%; padding-left: 20px; padding-right: 
+
+20px'&gt;{2}&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br /&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="EmailChange" xml:space="preserve">
+    <value>&lt;table style="width: 100%;border: 1px solid #C3C3C5;border-radius: 10px;" cellpadding="0" cellspacing="0"&gt;
+       &lt;tbody&gt;&lt;tr&gt;&lt;td style="width: 100%;background-color: #C3C3C5;height: 60px;color: #45748F;font-size: large;border-top-left-radius: 10px;border-top-right-radius: 10px;"&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;New Primary Email address&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;&lt;br&gt;Dear {0} {1},&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;Your LMS Primary email address has been changed.
+&lt;br&gt;&lt;br&gt;Primary Email ID:&lt;b&gt;{2}&lt;br&gt;  
+        &lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
+         &lt;/tr&gt;&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;Secondary Email ID:&lt;b&gt;{3}&lt;br&gt;&lt;br&gt;
+             
+        &lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;b&gt;Note:&lt;/b&gt; Your Primary email ID will be your login ID to LMS learning center. You can use the same password. &lt;/td&gt;&lt;/tr&gt;
+         &lt;tr&gt;&lt;td style="width: 100%" align="left"&gt;&lt;br&gt;Thanks &amp;amp; Regards,&lt;br&gt;&lt;b&gt;{4}&lt;/b&gt; &amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; You may retain this e-mail for your future records.&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</value>
+  </data>
+  <data name="EnquiryRegister" xml:space="preserve">
+    <value>Dear Sir/Madam,
+&lt;br&gt;
+&lt;br&gt;
+Thank you for registering with us, you are eligible for a 20% discount on our whole ERP package. For more details on your pricing, our sales team will contact you within 24 working hours.
+&lt;br&gt;
+&lt;br&gt;
+Regards,
+Samvaad ERP Team.</value>
+  </data>
+  <data name="EventRequestPopUp" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ForamApprovalRequest" xml:space="preserve">
+    <value>Forum Approval Request</value>
+  </data>
+  <data name="ForamTopicApprovalRequest" xml:space="preserve">
+    <value>&lt;table style="width: 100%;border: 1px solid #C3C3C5;border-radius: 10px;" cellpadding="0" cellspacing="0"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Dear Admin,&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;A new forum has been created under the course ({0}) &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;Please kindly review and approve it.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Course Name : {1} &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Forum Name:{2}&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Thanks and Regards, &amp;nbsp;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px;font-weight:bold"&gt;&lt;b&gt;{3}&lt;/b&gt; &amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px;font-weight:bold"&gt;&lt;b&gt;Note: This is an automated email. Kindly do not reply to this mail.&lt;/b&gt; &amp;nbsp;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;</value>
+  </data>
+  <data name="ForgetPassword" xml:space="preserve">
+    <value>&lt;table style="width: 100%" cellpadding="0" cellspacing="0"&gt;
+        &lt;tbody&gt;&lt;tr&gt;&lt;td style="width: 10%"&gt;&lt;/td&gt;&lt;td style="width: 80%"&gt;
+        &lt;table style="width: 100%;border: 1px solid #C3C3C5;border-radius: 10px;" cellpadding="0" cellspacing="0"&gt;
+       &lt;tbody&gt;&lt;tr&gt;&lt;td style="width: 100%;background-color: #C3C3C5;height: 60px;color: #45748F;font-size: large;border-top-left-radius: 10px;border-top-right-radius: 10px;"&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;Password Recovery&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;&lt;br&gt;Dear {0} {1},&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;Your Password has been recovered. &lt;br&gt;&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td style="width: 100%"&gt;&lt;br&gt;&lt;table style="width: 80%;background-color: #ddd8d8;height: 60px;border-radius: 10px;" align="center"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Email Address(Username) : &amp;nbsp;&amp;nbsp;&lt;b&gt; {2} &lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td&gt;Password &amp;nbsp;:&amp;nbsp;&lt;b&gt; {3} &lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+        &lt;tr&gt;&lt;td style="width: 100%" align="left"&gt;&lt;br&gt;Please change your password for security reasons.&lt;br&gt;&lt;br&gt;Thanks &amp;amp; Regards,&lt;br&gt;&lt;b&gt;{4}&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; This is an automated email. Kindly do not reply to this mail. &amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;td style="width: 10%"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</value>
+  </data>
+  <data name="ForumThreadApproved" xml:space="preserve">
+    <value>Your new thread has been Approved</value>
+  </data>
+  <data name="ForumThreadRejected" xml:space="preserve">
+    <value>Your new thread has been Rejected</value>
+  </data>
+  <data name="ForumTopic" xml:space="preserve">
+    <value>&lt;table style='font-family:Arial;font-size:9pt'&gt;&lt;tr&gt;&lt;td&gt; Dear {0},&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='600px'&gt;Your new thread has been {1} by admin&lt;table style='width: 600px'&gt;&lt;tr&gt;&lt;td class='style2' colspan='3'&gt;&lt;b&gt;Details&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style='width: 35%'&gt;Thread Name&lt;/td&gt;&lt;td style='width: 2%'&gt;&lt;b&gt;:&lt;/b&gt;&lt;/td&gt;&lt;td style='width: 63%'&gt;       {2}&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt; Thanks and Regards &lt;br/&gt;{3}&lt;br/&gt;&lt;br/&gt;Any Queries, Contact Admin&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt; Note. This is an automated email. Kindly do not reply to this email. &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</value>
+  </data>
+  <data name="GroupApprovalRequest" xml:space="preserve">
+    <value>&lt;p&gt;Dear Admin,&lt;br&gt;&lt;br&gt;
+
+Please Approve my request for joining group below are the details.&lt;br&gt;&lt;br&gt;
+
+User name: {0}&lt;br&gt;
+Group name: {1}&lt;br&gt;
+Login name: {2}&lt;br&gt;&lt;br&gt;
+
+Need Your Approval.&lt;br&gt;&lt;br&gt;
+
+  Thanks and Regards,&lt;br&gt;{3}.&lt;br&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="GroupApproved" xml:space="preserve">
+    <value>&lt;p&gt;Dear User,&lt;br&gt;&lt;br&gt;
+
+You have been successfully added to group: {0} &lt;br&gt;&lt;br&gt;
+
+Approved By: {1}&lt;br&gt;&lt;br&gt;
+
+Thanks and Regards,&lt;br&gt;
+{2}.&lt;/p&gt;</value>
+  </data>
+  <data name="GroupMail" xml:space="preserve">
+    <value>&lt;table style="width: 100%;border: 1px solid #C3C3C5;border-radius: 10px;" cellpadding="0" cellspacing="0"&gt;
+&lt;tbody&gt;&lt;tr&gt;&lt;td style="width: 100%;background-color: #C3C3C5;height: 60px;color: #45748F;font-size: large;border-top-left-radius: 10px;border-top-right-radius: 10px;"&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;{0}&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Dear User,&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;New folder has been shared for the Group {1} &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Thanks and Regards, &amp;nbsp;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px;font-weight:bold"&gt;&lt;b&gt;{2}&lt;/b&gt; &amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px;"&gt;&lt;b&gt;Note:&lt;/b&gt; This is an automated email. Kindly do not reply to this mail. &amp;nbsp;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;</value>
+  </data>
+  <data name="GroupRejected" xml:space="preserve">
+    <value>&lt;p&gt;Dear User,&lt;br&gt;&lt;br&gt;
+
+Your Request for joining the group has been rejected&lt;br&gt;&lt;br&gt;
+
+Rejected By : {0}&lt;br&gt;
+Group name: {1}&lt;br&gt;
+Reason for Rejection: {2}&lt;br&gt;&lt;br&gt;
+
+Thanks and Regards,&lt;br&gt;
+{3}.&lt;/p&gt;</value>
+  </data>
+  <data name="GroupSub" xml:space="preserve">
+    <value>New folder added</value>
+  </data>
+  <data name="IsSubjective" xml:space="preserve">
+    <value>&lt;table style='font-family: Arial; font-size: 9pt'&gt;
+&lt;tr&gt;
+&lt;td style='font-family: Arial'&gt;Dear&amp;nbsp;&amp;nbsp;{0},&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Your assessment has been send to assessor for validation, we will get back to you shortly.&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;&lt;table style='font-family: Arial; font-size: 9pt'&gt;&lt;tr&gt;&lt;td style='font-family: Arial'&gt;&lt;br /&gt;&lt;br /&gt;&amp;nbsp;Thanks &amp; Regards&lt;br /&gt;&amp;nbsp;{1}&lt;br /&gt;&lt;br /&gt;
+&amp;nbsp;Any Queries, Contact Admin&lt;br /&gt;&amp;nbsp;Note. This is an automated email. Kindly do not reply to this email.&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</value>
+  </data>
+  <data name="JoinConference" xml:space="preserve">
+    <value>&lt;table style="width: 100%;border: 1px solid #C3C3C5;border-radius: 10px;" cellpadding="0" cellspacing="0"&gt;
+&lt;tbody&gt;&lt;tr&gt;&lt;td style="width: 100%;background-color: #C3C3C5;height: 60px;color: #45748F;font-size: large;border-top-left-radius: 10px;border-top-right-radius: 10px;"&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;Confirence Details&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Dear User &lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;Please Join Confirence &lt;br&gt;&lt;br&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;Check the following Details
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="width: 100%"&gt;
+&lt;br&gt;
+&lt;table style="width: 80%;background-color: #ddd8d8;height: 60px;border-radius: 10px;" align="center"&gt;&lt;tbody&gt;
+    &lt;tr&gt;&lt;td&gt;Login URL&amp;nbsp;&amp;nbsp;&lt;b&gt;{0}&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Date&amp;nbsp;&amp;nbsp;&lt;b&gt;{1}&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Time&amp;nbsp;&amp;nbsp;&lt;b&gt;{2}&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Thanks &amp; Regards,&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;b&gt;Admin&lt;/b&gt; &amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt; Note: You may retain this e-mail for your future records.&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;</value>
+  </data>
+  <data name="JoiningGroup" xml:space="preserve">
+    <value>Status of joining group</value>
+  </data>
+  <data name="NewPrimaryEmail" xml:space="preserve">
+    <value>Your New Primary Email address</value>
+  </data>
+  <data name="PasswordChanged" xml:space="preserve">
+    <value>Password Changed</value>
+  </data>
+  <data name="PasswordRecovery" xml:space="preserve">
+    <value>Password Recovery</value>
+  </data>
+  <data name="paymentConfirmation" xml:space="preserve">
+    <value>&lt;div&gt; Dear  &lt;b&gt;{0}&lt;/b&gt; &lt;br&gt; &lt;br&gt;Payment Successful! &lt;br&gt;&lt;br&gt;You are now registered to the course -&lt;b&gt; {1}.&lt;/b&gt; &lt;/div&gt;&lt;br&gt;&lt;div&gt;Please find your login credentials below. &lt;/div&gt; &lt;br&gt;&lt;b&gt;Login URL&lt;/b&gt;: {2}&lt;br&gt;&lt;b&gt;Username&lt;/b&gt; :{3}&lt;br&gt;&lt;b&gt;Password&lt;/b&gt; :{4}&lt;br&gt;&lt;br&gt;Regards,&lt;br&gt;Admin  &lt;br&gt;&lt;div&gt;&lt;br&gt; &lt;b&gt;NOTE:&lt;/b&gt;  Please change your password as soon as you login to your account. Also, this is system-generated email. Please do not respond..&lt;/div&gt;</value>
+  </data>
+  <data name="PaymentSuccess" xml:space="preserve">
+    <value>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;
+&lt;html style="-moz-osx-font-smoothing: grayscale; -webkit-font-smoothing: antialiased; background-color: #464646; margin: 0; padding: 0;"&gt;
+    &lt;head&gt;
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+        &lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8"&gt;
+        &lt;meta name="format-detection" content="telephone=no"&gt;
+        &lt;title&gt;:: Shiksion Email&lt;/title&gt;
+        
+    &lt;/head&gt;
+    &lt;body bgcolor="#d7d7d7" class="generic-template" style="-moz-osx-font-smoothing: grayscale; -webkit-font-smoothing: antialiased; background-color: #d7d7d7; margin: 0; padding: 0;"&gt;
+
+        &lt;table cellpadding="0" cellspacing="0" cols="1" bgcolor="#d7d7d7" align="center" style="max-width: 600px;"&gt;
+            &lt;tr bgcolor="#d7d7d7"&gt;
+                &lt;td height="20" style="color: #464646; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; vertical-align: top;"&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+
+            &lt;tr bgcolor="#d7d7d7"&gt;
+                &lt;td style="color: #464646; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; vertical-align: top;"&gt;
+                    &lt;table align="center" cellpadding="0" cellspacing="0" cols="3" bgcolor="white" class="bordered-left-right" style="border-left: 10px solid #d7d7d7; border-right: 10px solid #d7d7d7; max-width: 600px; width: 100%;"&gt;
+                        &lt;tr height="10"&gt;&lt;td colspan="3" style="color: #464646; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; vertical-align: top;"&gt;&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr align="center"&gt;
+                           
+                            &lt;td colspan="3" class="text-primary" style="color: #F16522; text-align: left; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; vertical-align: top;"&gt;
+                                &lt;img src="https://shiksion.com/assets/img/samvaad_tutor_logo.png" alt="shiksion" width="120" style="border: 0; font-size: 0; margin: 0; max-width: 100%; padding:10px;"&gt;
+                            &lt;/td&gt;
+                            
+                        &lt;/tr&gt;
+                        &lt;tr align="center"&gt;
+                            &lt;td width="36" style="color: #464646; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; vertical-align: top;"&gt;&lt;/td&gt;
+                            &lt;td class="text-primary" style="color: #F16522; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; vertical-align: top;"&gt;
+                                &lt;img src="https://shiksion.com/assets/img/tick.png" alt="shiksion" width="50" style="border: 0; font-size: 0; margin: 0; max-width: 100%; padding: 0;"&gt;
+                            &lt;/td&gt;
+                            &lt;td width="36" style="color: #464646; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; vertical-align: top;"&gt;&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr height="17"&gt;&lt;td colspan="3" style="color: #464646; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; vertical-align: top;"&gt;&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr align="center"&gt;
+                            &lt;td width="36" style="color: #464646; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; vertical-align: top;"&gt;&lt;/td&gt;
+                            &lt;td class="text-primary" style="color: #3EB655; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; vertical-align: top;"&gt;
+                                &lt;h1 style="color: #3EB655; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:24px; font-weight: 700; line-height: 34px; margin-bottom: 0; margin-top: 0;"&gt;Payment received&lt;/h1&gt;
+                            &lt;/td&gt;
+                            &lt;td width="36" style="color: #464646; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; vertical-align: top;"&gt;&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr height="30"&gt;&lt;td colspan="3" style="color: #464646; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; vertical-align: top;"&gt;&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr align="left"&gt;
+                            &lt;td width="36" style="color: #464646; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; vertical-align: top;"&gt;&lt;/td&gt;
+                            &lt;td style="color: #464646; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; vertical-align: top;"&gt;
+                                &lt;p style="color: #464646; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 22px; margin: 0;"&gt;
+                                    Hi  &lt;strong&gt; {0}! &lt;/strong&gt;, 
+                                &lt;/p&gt;
+                            &lt;/td&gt;
+                            &lt;td width="36" style="color: #464646; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; vertical-align: top;"&gt;&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr height="10"&gt;&lt;td colspan="3" style="color: #464646; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; vertical-align: top;"&gt;&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr align="left"&gt;
+                            &lt;td width="36" style="color: #464646; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; vertical-align: top;"&gt;&lt;/td&gt;
+                            &lt;td style="color: #464646; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; vertical-align: top;"&gt;
+                                &lt;p style="color: #464646; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 22px; margin: 0;"&gt;Thank you for using Shiksion platform.!!&lt;/p&gt;
+                                &lt;br&gt;
+                                &lt;p style="color: #464646; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 22px; margin: 0; "&gt;
+                                    
+                                    We have successfully processed your payment of &lt;strong&gt; Rs.{1}/- &lt;/strong&gt;  for Course  &lt;strong&gt;{2}  &lt;/strong&gt; &lt;br/&gt;
+                                    You can access your subscription information at &lt;a href="https://shiksion.com" target="_blank" style="font-weight:bold; color:#000000;" &gt; www.shiksion.com&lt;/a&gt;&lt;br/&gt;&lt;/p&gt;
+                                    &lt;br&gt;
+                                &lt;p style="color: #464646; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 22px; margin: 0;"&gt;If you have any further queries, contact us at, &lt;a href="mailto:support@samvaadpro.com" style="color:#000000; font-weight:bold;"&gt;support@samvaadpro.com&lt;/a&gt; &lt;br/&gt;&lt;/p&gt;
+                            &lt;/td&gt;
+                            &lt;td width="36" style="color: #464646; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; vertical-align: top;"&gt;&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr height="30"&gt;
+                            &lt;td style="color: #464646; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; vertical-align: top;"&gt;&lt;/td&gt;
+                            &lt;td style="border-bottom: 1px solid #D3D1D1; color: #464646; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; vertical-align: top;"&gt;&lt;/td&gt;
+                            &lt;td style="color: #464646; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; vertical-align: top;"&gt;&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr height="30"&gt;&lt;td colspan="3" style="color: #464646; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; vertical-align: top;"&gt;&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr align="center"&gt;
+                            &lt;td width="36" style="color: #464646; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; vertical-align: top;"&gt;&lt;/td&gt;
+                            &lt;td style="color: #464646; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; vertical-align: top;"&gt;
+                                &lt;p style="color: #464646; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 22px; margin: 0;"&gt;&lt;strong&gt;Transaction reference: {3}&lt;/strong&gt;&lt;/p&gt;
+                                &lt;p style="color: #464646; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 22px; margin: 0;"&gt;Order date: {4} {5}&lt;/p&gt;
+                                &lt;p style="color: #464646; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 22px; margin: 0;"&gt;&lt;/p&gt;
+                            &lt;/td&gt;
+                            &lt;td width="36" style="color: #464646; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; vertical-align: top;"&gt;&lt;/td&gt;
+                        &lt;/tr&gt;
+
+                        &lt;tr height="10"&gt;
+                            &lt;td colspan="3" style="color: #464646; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; vertical-align: top;"&gt;&lt;/td&gt;
+                        &lt;/tr&gt;
+
+                    &lt;/table&gt;
+                    &lt;table cellpadding="0" cellspacing="0" cols="1" bgcolor="#d7d7d7" align="center" style="max-width: 600px; width: 100%;"&gt;
+                        &lt;tr bgcolor="#d7d7d7"&gt;
+                            &lt;td height="20" style="color: #464646; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; vertical-align: top;"&gt;&lt;/td&gt;
+                        &lt;/tr&gt;
+                    &lt;/table&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/table&gt;
+        &lt;div class="bg-gray-dark footer" bgcolor="#063646" height="165" style="background-color:#063646; width: 100%;"&gt;
+            &lt;table align="center" bgcolor="#063646" style="max-width: 600px; width: 100%;"&gt;
+                
+                &lt;tr height="15"&gt;&lt;td style="color: #464646; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; vertical-align: top;"&gt;&lt;/td&gt;&lt;/tr&gt;
+
+                &lt;tr&gt;
+                    &lt;td align="center" style="color: #464646; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; vertical-align: top;"&gt;
+                        &lt;img src="https://shiksion.com/assets/img/samvaad_tutor_logo.png" alt="shiksion" width="120" style="border: 0; font-size: 0; margin: 0; max-width: 100%; padding:0px;"&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                
+                &lt;tr height="2"&gt;&lt;td style="color: #464646; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; vertical-align: top;"&gt;&lt;/td&gt;&lt;/tr&gt;
+
+                &lt;tr&gt;
+                    &lt;td align="center" style="color: #464646; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; vertical-align: top;"&gt;
+                        &lt;p class="text-white" style="color: white; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 22px; margin: 0;"&gt;Copyright © Shiksion. All rights reserved.&lt;/p&gt;
+                        &lt;p class="text-primary" style="color: #F16522; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 22px; margin: 0;"&gt;
+                        &lt;/p&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                
+                &lt;tr height="15"&gt;&lt;td style="color: #464646; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; vertical-align: top;"&gt;&lt;/td&gt;&lt;/tr&gt;
+
+                &lt;tr&gt;
+                    &lt;td align="center" style="color: #464646; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; vertical-align: top;"&gt;
+                        &lt;a href="https://www.facebook.com/SamvaadInfotech"
+                        style="-webkit-text-decoration-color: #464646; color: #F16522; text-decoration: none; text-decoration-color: #464646;"&gt;&lt;img
+                            width="25" htight="25"
+                            src="https://shiksion.com/assets/img/social-media/fb.png"
+                            target="_blank" alt="Facebook"
+                            style="border: 0; font-size: 0; margin: 0; max-width: 100%; padding: 0;"&gt;&lt;/a&gt;&amp;nbsp;
+                    &lt;a href="https://www.youtube.com/channel/UCDSyRxKKVJ76vj6AWg9BlIQ"
+                        style="-webkit-text-decoration-color: #464646; color: #F16522; text-decoration: none; text-decoration-color: #464646;"&gt;&lt;img
+                            width="25" htight="25"
+                            src="https://shiksion.com/assets/img/social-media/youtube.png"
+                            target="_blank" alt="Youtube"
+                            style="border: 0; font-size: 0; margin: 0; max-width: 100%; padding: 0;"&gt;&lt;/a&gt;&amp;nbsp;
+			 &lt;a href="https://twitter.com/SamvaadInfotech"
+                        style="-webkit-text-decoration-color: #464646; color: #F16522; text-decoration: none; text-decoration-color: #464646;"&gt;&lt;img
+                            width="25" htight="25"
+                            src="https://shiksion.com/assets/img/social-media/twitter.png"
+                            target="_blank" alt="Twitter"
+                            style="border: 0; font-size: 0; margin: 0; max-width: 100%; padding: 0;"&gt;&lt;/a&gt;&amp;nbsp;
+                    &lt;a href="https://www.linkedin.com/company/samvaadd/"
+                        style="-webkit-text-decoration-color: #464646; color: #F16522; text-decoration: none; text-decoration-color: #464646;"&gt;&lt;img
+                            width="25" htight="25"
+                            src="https://shiksion.com/assets/img/social-media/linkedin.png"
+                            target="_blank" alt="LinkedIn"
+                            style="border: 0; font-size: 0; margin: 0; max-width: 100%; padding: 0;"&gt;&lt;/a&gt;&amp;nbsp;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr height="10"&gt;&lt;td style="color: #464646; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 16px; vertical-align: top;"&gt;&lt;/td&gt;&lt;/tr&gt;
+
+            &lt;/table&gt;
+        &lt;/div&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="PreAssessmentDetails" xml:space="preserve">
+    <value>LMS Course Pre-Training Assessment Details</value>
+  </data>
+  <data name="PrivilegeInfoForCourse" xml:space="preserve">
+    <value>Privileges Information for Course</value>
+  </data>
+  <data name="PrivilegesAdmin" xml:space="preserve">
+    <value>&lt;table&gt;&lt;tr&gt;&lt;td&gt;Dear Admin,&lt;br/&gt;&lt;/br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Trainer {0}  has delegated their job to {1}   &lt;br&gt;&lt;br/&gt;&lt;/tr&gt;&lt;/td&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;for the Course &lt;/b&gt; : {2} &lt;br/&gt;&lt;/br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Start Date&lt;/b&gt; : {3} &lt;br/&gt;&lt;/br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;End Date&lt;/b&gt; : {4} &lt;br/&gt;&lt;/br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Thanks and Regards,&lt;/b&gt;&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;{5}.&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</value>
+  </data>
+  <data name="PrivilegesUser" xml:space="preserve">
+    <value>&lt;html&gt;&lt;body&gt;&lt;Table&gt;&lt;tr&gt;&lt;td&gt;Dear User,&lt;br/&gt;&lt;/br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Your Privileges Information for Course has sent to Admin &lt;br&gt;&lt;br/&gt;&lt;/tr&gt;&lt;/td&gt;&lt;tr&gt;&lt;td&gt;Thanks and Regards,&lt;/b&gt;&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;{0}.&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</value>
+  </data>
+  <data name="Registration" xml:space="preserve">
+    <value>&lt;table style="width: 100%;border: 1px solid #C3C3C5;border-radius: 10px;" cellpadding="0" cellspacing="0"&gt;
+&lt;tbody&gt;&lt;tr&gt;&lt;td style="width: 100%;background-color: #C3C3C5;height: 60px;color: #45748F;font-size: large;border-top-left-radius: 10px;border-top-right-radius: 10px;"&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;Login Details&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Dear {0}  {1},&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;Thank you for registering to OUK.&lt;br&gt;&lt;br&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;Use the following credentials.
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="width: 100%"&gt;
+&lt;br&gt;
+&lt;table style="width: 80%;background-color: #ddd8d8;height: 60px;border-radius: 10px;" align="center"&gt;&lt;tbody&gt;
+    &lt;tr&gt;&lt;td&gt;Login URL&amp;nbsp;&amp;nbsp;&lt;b&gt;{2}&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Email Address(Username)&amp;nbsp;&amp;nbsp;&lt;b&gt;{3}&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Password &amp;nbsp;:&amp;nbsp;&lt;b&gt;{4}&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Thanks &amp; Regards,&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;b&gt;Admin&lt;/b&gt; &amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt; Note: You may retain this e-mail for your future records.&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;</value>
+  </data>
+  <data name="RegistrationDetails" xml:space="preserve">
+    <value>LMS Registration Login Details</value>
+  </data>
+  <data name="Registrationnoteficationtoadmin" xml:space="preserve">
+    <value>&lt;table style="width: 100%" cellpadding="0" cellspacing="0"&gt;
+&lt;tbody&gt;&lt;tr&gt;&lt;td style="width: 10%"&gt;&lt;/td&gt;&lt;td style="width: 80%"&gt;
+&lt;table style="width: 100%;border: 1px solid #C3C3C5;border-radius: 10px;" cellpadding="0" cellspacing="0"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Dear Admin,&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;New User has been successfully registered to the LMS. &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Please find the user details below:&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%"&gt;&lt;br&gt;&lt;table style="width: 80%;background-color: #ddd8d8;height: 60px;border-radius: 10px;" align="center"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Name :&lt;b&gt;{0}&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;E-mail&amp;nbsp;:&lt;b&gt;{1}&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Contact :&lt;b&gt;{2}&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;b&gt;Thanks and Regards,&lt;/b&gt; &amp;nbsp;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px;font-weight:bold"&gt;&lt;b&gt;{3}&lt;/b&gt; &amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px;font-weight:bold"&gt;&lt;b&gt;Note: This is an automated email. Kindly do not reply to this mail.&lt;/b&gt;&lt;br&gt; &amp;nbsp;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</value>
+  </data>
+  <data name="Registrationnoteficationtoadminsubjest" xml:space="preserve">
+    <value>New User Details</value>
+  </data>
+  <data name="RegistrationUrl" xml:space="preserve">
+    <value>LMS Registration URL</value>
+  </data>
+  <data name="ReplyApproved" xml:space="preserve">
+    <value>Your reply has been Approved</value>
+  </data>
+  <data name="ReplyMaster" xml:space="preserve">
+    <value>&lt;table style='font-family:Arial;font-size:9pt'&gt;&lt;tr&gt;&lt;td&gt;Dear {0},&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width='600px'&gt;Your Reply has been {1} by admin for a thread&lt;table style='width: 600px'&gt;&lt;tr&gt;&lt;td class='style2' colspan='3'&gt;&lt;b&gt;Details&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style='width: 35%'&gt;Thread Name&lt;/td&gt;&lt;td style='width: 2%'&gt;     &lt;b&gt;:&lt;/b&gt;&lt;/td&gt;&lt;td style='width: 63%'&gt;    {2}&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style='width: 35%'&gt; Your Reply&lt;/td&gt;&lt;td style='width: 2%'&gt;&lt;b&gt;:&lt;/b&gt;&lt;/td&gt;&lt;td style='width: 63%'&gt;       {3}&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt; Thanks and Regards &lt;br/&gt;{4}&lt;br/&gt;&lt;br/&gt;Any Queries, Contact Admin&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt; Note. This is an automated email. Kindly do not reply to this email. &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</value>
+  </data>
+  <data name="ReplyRejected" xml:space="preserve">
+    <value>Your reply has been Rejected</value>
+  </data>
+  <data name="RequestGroup" xml:space="preserve">
+    <value>Request For joining group</value>
+  </data>
+  <data name="RequestNewCourse" xml:space="preserve">
+    <value>Request for New Course</value>
+  </data>
+  <data name="ScheduleAssessment" xml:space="preserve">
+    <value>&lt;table style="width: 100%;border: 1px solid #C3C3C5;border-radius: 10px;" cellpadding="0" cellspacing="0"&gt;
+&lt;tbody&gt;&lt;tr&gt;&lt;td style="width: 100%;background-color: #C3C3C5;height: 60px;color: #45748F;font-size: large;border-top-left-radius: 10px;border-top-right-radius: 10px;"&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;Aseessment Details&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Dear User &lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;Sheduled asseement in LMS.&lt;br&gt;&lt;br&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;Use the following credentials.
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="width: 100%"&gt;
+&lt;br&gt;
+&lt;table style="width: 80%;background-color: #ddd8d8;height: 60px;border-radius: 10px;" align="center"&gt;&lt;tbody&gt;
+    &lt;tr&gt;&lt;td&gt;Login URL&amp;nbsp;&amp;nbsp;&lt;b&gt;{0}&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Date&amp;nbsp;&amp;nbsp;&lt;b&gt;{1}&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Thanks &amp; Regards,&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;b&gt;Admin&lt;/b&gt; &amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt; Note: You may retain this e-mail for your future records.&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;</value>
+  </data>
+  <data name="StudentQuestionPaper" xml:space="preserve">
+    <value>&lt;table style='font-family: Arial; font-size: 9pt'&gt;&lt;tr&gt;&lt;td style='font-family: Arial'&gt;Dear&amp;nbsp;&amp;nbsp;{0},&lt;br /&gt;&lt;br /&gt;Please find details of your assessment mentioned below.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;table style='font-family: Arial; font-size: 9pt'&gt;&lt;tr&gt;&lt;td style='font-family: Verdana'&gt;Result&lt;/td&gt;&lt;td &gt;&lt;b&gt;:&lt;/b&gt;&lt;/td&gt;&lt;td style='font-family: Verdana'&gt;{1}&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style='font-family: Verdana'&gt;Number Of Attempts Left&lt;/td&gt;&lt;td &gt;&lt;b&gt;:&lt;/b&gt;&lt;/td&gt;&lt;td style='font-family: Verdana'&gt;{2}&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;table style='font-family: Verdana; font-size: 9pt'&gt;&lt;tr&gt;&lt;td style='font-family: Verdana'&gt;&lt;br /&gt;&lt;br /&gt;&amp;nbsp;Thanks &amp; Regards&lt;br /&gt;&amp;nbsp;{3}&lt;br /&gt;&lt;br /&gt;&amp;nbsp;Any Queries, Contact Admin&lt;br /&gt;&amp;nbsp;Note. This is an automated email. Kindly do not reply to this email.&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</value>
+  </data>
+  <data name="SubscriptionDetails" xml:space="preserve">
+    <value>Subscription Details</value>
+  </data>
+  <data name="TenantSubscription" xml:space="preserve">
+    <value>&lt;br /&gt;&lt;table style='width: 100%' cellpadding='0' cellspacing='0'&gt;
+&lt;tr&gt;&lt;td style='width: 10%'&gt;&lt;/td&gt;&lt;td style='width: 80%'&gt;
+&lt;table style='width: 100%;border: 1px solid #C3C3C5;border-radius: 10px;' cellpadding='0' cellspacing='0'&gt;
+&lt;tr&gt;&lt;td style='width: 100%;background-color: #C3C3C5;height: 60px;color: #45748F;font-size: large;border-top-left-radius: 10px;border-top-right-radius: 10px;'&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;Subscription Details&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style='width: 100%; padding-left: 20px; padding-right: 20px'&gt;&lt;br /&gt;&lt;br /&gt;Dear {0}  {1},&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style='width: 100%; padding-left: 20px; padding-right: 20px'&gt;&lt;br /&gt;You have choosen {2} Subcription which is valid for {3}. This e-mail message contains important information about your DatamEdu.com account. You may want to retain this e-mail for your records.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style='width: 100%; padding-left: 20px; padding-right: 20px'&gt;&lt;br /&gt;Please login into &lt;a href={4}&gt;LMS&lt;/a&gt;with following credentials&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td style='width: 100%'&gt;&lt;br /&gt;&lt;table style='width: 80%;background-color: #ddd8d8;height: 60px;border-radius: 10px;' align='center'&gt;&lt;tr&gt;&lt;td&gt;Email Address(Username)&amp;nbsp;&amp;nbsp;&lt;b&gt;{5}&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td&gt;Password &amp;nbsp;:&amp;nbsp;&lt;b&gt;{6}&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+                        &lt;tr&gt;&lt;td style='width: 100%' align='right'&gt;&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Admin&lt;/b&gt; &amp;nbsp;&amp;nbsp;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;td style='width: 10%'&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;br /&gt;&lt;br /&gt;</value>
+  </data>
+  <data name="ValidateAccessor" xml:space="preserve">
+    <value>&lt;table style="width: 100%" cellpadding="0" cellspacing="0"&gt;
+&lt;tbody&gt;&lt;tr&gt;&lt;td style="width: 10%"&gt;&lt;/td&gt;&lt;td style="width: 80%"&gt;
+&lt;br&gt;&lt;br&gt;&lt;table style="width: 100%;border: 1px solid #C3C3C5;border-radius: 10px;" cellpadding="0" cellspacing="0"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Dear Trainer,&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;User has completed the Assessment.Need to Evaluate&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;b&gt;Thanks and Regards,&lt;/b&gt; &amp;nbsp;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px;font-weight:bold"&gt;&lt;b&gt;{0}&lt;/b&gt; &amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px;font-weight:bold"&gt;&lt;b&gt;Note: This is an automated email. Kindly do not reply to this mail.&lt;/b&gt;&lt;br&gt; &amp;nbsp;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</value>
+  </data>
+  <data name="VCRequest" xml:space="preserve">
+    <value>&lt;tbody&gt;
+&lt;table style="width: 100%; border: 1px solid #C3C3C5; border-radius: 10px;" cellpadding="0" cellspacing="0"&gt;
+                            &lt;tr&gt;
+                                &lt;td style="width: 100%; background-color: #C3C3C5; height: 60px; color: #45748F; font-size: large; border-top-left-radius: 10px; border-top-right-radius: 10px;"&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;VC Invitation&lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr&gt;
+                                &lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;
+                                    &lt;br&gt;
+                                    &lt;br&gt;
+                                    Dear user,&lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr&gt;
+                                &lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;
+                                    &lt;br&gt;
+                                    Click this link to participate in the conference[The link may only work for a certain period.]:&lt;/td&gt;
+                            &lt;/tr&gt;
+
+                            &lt;tr&gt;
+                                &lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;
+                                    &lt;br&gt;
+                                    &lt;a href="{0}"&gt;Click here to verify&lt;/a&gt;&lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr&gt;
+                               
+                            &lt;/tr&gt;
+                           
+
+                           
+                           
+                            &lt;tr&gt;
+                                &lt;td style="width: 100%" align="right"&gt;
+                                    &lt;br&gt;
+                                    &lt;br&gt;
+                                    &lt;b&gt;Thanks and Regards&lt;/b&gt; &amp;nbsp;&amp;nbsp;&lt;br&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+&lt;/table&gt;
+&lt;/tbody&gt;</value>
+  </data>
+  <data name="VCRequestApproval" xml:space="preserve">
+    <value>&lt;table style="width: 100%;border: 1px solid #C3C3C5;border-radius: 10px;text-align:left;" cellpadding="0" cellspacing="0"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Dear Admin,&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Need Approval for the {0} session scheduled to the Group {1}.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;Please find the details below:&lt;/td&gt;&lt;/tr&gt;
+                        
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Session Name:{2}&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;Start Date &amp;amp; Time:{3}&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;End Date &amp;amp; Time:{4}&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Thanks and Regards, &amp;nbsp;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px;font-weight:bold"&gt;&lt;b&gt;{5},&lt;/b&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px;font-weight:bold"&gt;&lt;b&gt;{6}&lt;/b&gt; &amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;
+
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px;font-weight:bold"&gt;&lt;b&gt;Note: This is an automated email. Kindly do not reply to this mail.&lt;/b&gt; &amp;nbsp;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;</value>
+  </data>
+  <data name="VCRequestapprovalorrejSubjest" xml:space="preserve">
+    <value>VC request {0}</value>
+  </data>
+  <data name="VCRequestApprovalSubject" xml:space="preserve">
+    <value>VCRequest Approval</value>
+  </data>
+  <data name="VCRequestApproverOrRej" xml:space="preserve">
+    <value>&lt;table style="width: 100%;border: 1px solid #C3C3C5;border-radius: 10px;" cellpadding="0" cellspacing="0"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Dear {0},&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Your Request has been {7} for the {1} session scheduled to the Group ({2})&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;Please find the details below:&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Session Name:{3}&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;Start Date &amp;amp; Time:{4}&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;End Date &amp;amp; Time:{5}&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;&lt;br&gt;Thanks and Regards, &amp;nbsp;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px;font-weight:bold"&gt;&lt;b&gt;{6}&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="width: 100%; padding-left: 20px; padding-right: 20px;font-weight:bold"&gt;&lt;b&gt;Note: This is an automated email. Kindly do not reply to this mail.&lt;/b&gt; &amp;nbsp;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;</value>
+  </data>
+  <data name="VerifyEmailID" xml:space="preserve">
+    <value>&lt;table style="width: 100%; border: 1px solid #C3C3C5; border-radius: 10px;" cellpadding="0" cellspacing="0"&gt;
+                            &lt;tbody&gt;&lt;tr&gt;
+                                &lt;td style="width: 100%; background-color: #C3C3C5; height: 60px; color: #45748F; font-size: large; border-top-left-radius: 10px; border-top-right-radius: 10px;"&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;Manage Email IDs&lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr&gt;
+                                &lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;
+                                    &lt;br&gt;
+                                    &lt;br&gt;
+                                    Dear {0}  {1},&lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr&gt;
+                                &lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;
+                                    &lt;br&gt;
+                                    You recently added this email address to your LMS account. Before you can make this email address as your Primary email address you need to verify it.&lt;/td&gt;
+                            &lt;/tr&gt;
+
+                            &lt;tr&gt;
+                                &lt;td style="width: 100%; padding-left: 20px; padding-right: 20px"&gt;
+                                    &lt;br&gt;
+                                    &lt;a href="{2}"&gt;Click here to verify&lt;/a&gt;&lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr&gt;
+                               
+                            &lt;/tr&gt;
+                           
+
+                           
+                           
+                            &lt;tr&gt;
+                                &lt;td style="width: 100%" align="right"&gt;
+                                    &lt;br&gt;
+                                    &lt;br&gt;
+                                    &lt;b&gt;The DatamEdu Team&lt;/b&gt; &amp;nbsp;&amp;nbsp;&lt;br&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                        &lt;/tbody&gt;&lt;/table&gt;</value>
+  </data>
+</root>

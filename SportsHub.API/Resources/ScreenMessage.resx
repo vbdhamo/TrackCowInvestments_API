@@ -1,0 +1,1003 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddUserFail" xml:space="preserve">
+    <value>Failed to add user to the Group.</value>
+  </data>
+  <data name="AlreadyActiveSession" xml:space="preserve">
+    <value>You are already in video conference session, Please close the browser and activate the link</value>
+  </data>
+  <data name="AlreadyApplyed" xml:space="preserve">
+    <value>You have already applied for this course.</value>
+  </data>
+  <data name="AlreadyCommitted" xml:space="preserve">
+    <value>Information already committed.</value>
+  </data>
+  <data name="AlreadyExists" xml:space="preserve">
+    <value>{0} already exists.</value>
+  </data>
+  <data name="AnswerAtleastOneQuestion" xml:space="preserve">
+    <value>Please answer atleast one Feedback Question.</value>
+  </data>
+  <data name="Approved" xml:space="preserve">
+    <value>Blog approved successfully</value>
+  </data>
+  <data name="AssessmentAlreadyCreated" xml:space="preserve">
+    <value>Assessment already created for this Course.</value>
+  </data>
+  <data name="AssessorAssign" xml:space="preserve">
+    <value>Assigning Assessor was successful.</value>
+  </data>
+  <data name="AssignAgain" xml:space="preserve">
+    <value>Please assign Items.</value>
+  </data>
+  <data name="AtleastOneQuestion" xml:space="preserve">
+    <value>Atleast 1 question should be there to create an Assessment.</value>
+  </data>
+  <data name="AttactmentSizeRestriction" xml:space="preserve">
+    <value>Size of attachments is restricted to {0} MB.</value>
+  </data>
+  <data name="AttemptLeft" xml:space="preserve">
+    <value>Attempt left is mandatory.</value>
+  </data>
+  <data name="BlogNotSentForApproval" xml:space="preserve">
+    <value>Your post not sent for approval</value>
+  </data>
+  <data name="BlogSentForApproval" xml:space="preserve">
+    <value>Your post has been sent for approval</value>
+  </data>
+  <data name="CanAddTopicIfCourseAssigned" xml:space="preserve">
+    <value>You can add a new topic only if you are assigned to any course.</value>
+  </data>
+  <data name="CannotInactivateRole" xml:space="preserve">
+    <value>Cannot Inactivate the Role.</value>
+  </data>
+  <data name="CannotInactiveSchedule" xml:space="preserve">
+    <value>Cannot make Inactive as Schedule is already in use.</value>
+  </data>
+  <data name="ChapterAlreadyUsed" xml:space="preserve">
+    <value>Cannot make Inactive as Chapter is already in use.</value>
+  </data>
+  <data name="CheckIsPrimary" xml:space="preserve">
+    <value>Please verify your email ID in order to make it Primary email ID</value>
+  </data>
+  <data name="CodeNotValid" xml:space="preserve">
+    <value>The code you entered is invalid.</value>
+  </data>
+  <data name="CommencementDate" xml:space="preserve">
+    <value>Please select Commencement Date.</value>
+  </data>
+  <data name="CommitedSuccess" xml:space="preserve">
+    <value>Committed successfully.</value>
+  </data>
+  <data name="CommunicationExists" xml:space="preserve">
+    <value>Communication details already exists.</value>
+  </data>
+  <data name="CompletePaymentToPost" xml:space="preserve">
+    <value>Please complete payment process to Post the Forum.</value>
+  </data>
+  <data name="ConfigureUrlInWebconfig" xml:space="preserve">
+    <value>Please configure your site URL in web config.</value>
+  </data>
+  <data name="ContactDetailSent" xml:space="preserve">
+    <value>Your Contact Details sent successfully.</value>
+  </data>
+  <data name="CountryExists" xml:space="preserve">
+    <value>County with this name already exists.</value>
+  </data>
+  <data name="CourseAlreadyApplied" xml:space="preserve">
+    <value>You have already applied for this course.</value>
+  </data>
+  <data name="CourseAlreadyAssigned" xml:space="preserve">
+    <value>Course already assigned to this Student.</value>
+  </data>
+  <data name="CourseAlreadyExists" xml:space="preserve">
+    <value>Course with this name already exists</value>
+  </data>
+  <data name="CourseAlreadyUsed" xml:space="preserve">
+    <value>Course is already in use. Cannot change the status.</value>
+  </data>
+  <data name="CourseAssigned" xml:space="preserve">
+    <value>User assigned for the course successfully</value>
+  </data>
+  <data name="CourseDurationNotBeZero" xml:space="preserve">
+    <value>Course Duration cannot be Zero.</value>
+  </data>
+  <data name="CourseLimit" xml:space="preserve">
+    <value>Your course creation limit permissions have been exceeded.Please contact Adminstrator</value>
+  </data>
+  <data name="CourseNotAssigned" xml:space="preserve">
+    <value>Course not assigned.</value>
+  </data>
+  <data name="CourseTrainerAlreadyUsed" xml:space="preserve">
+    <value>Cannot make Inactive as Trainer already in use.</value>
+  </data>
+  <data name="CreateSurvey" xml:space="preserve">
+    <value> Survey created successfully.</value>
+  </data>
+  <data name="CustomUrlGenerated" xml:space="preserve">
+    <value>Custom URLs for the Tenant are generated.</value>
+  </data>
+  <data name="Decline" xml:space="preserve">
+    <value>Blog Declined</value>
+  </data>
+  <data name="DeniedToUnshareFolder" xml:space="preserve">
+    <value>Access denied to unshare the folder.</value>
+  </data>
+  <data name="DictionaryExists" xml:space="preserve">
+    <value>This Dictionary Name already exists.</value>
+  </data>
+  <data name="DOBNotGreaterThanPresentDate" xml:space="preserve">
+    <value>Date of Birth should not be greater than or equal to present date.</value>
+  </data>
+  <data name="DobValidation" xml:space="preserve">
+    <value>Registration restricted for below 15 years.</value>
+  </data>
+  <data name="DocFileType" xml:space="preserve">
+    <value>Can upload only pdf, pptx and doc files.</value>
+  </data>
+  <data name="DuplicateTitle" xml:space="preserve">
+    <value>Title already exist</value>
+  </data>
+  <data name="DurationFromLessThanDurationTo" xml:space="preserve">
+    <value>Duration From should be less than Duration To.</value>
+  </data>
+  <data name="EmailSent" xml:space="preserve">
+    <value>Mail sent successfully.</value>
+  </data>
+  <data name="EndDateIsNull" xml:space="preserve">
+    <value>Please select End Date.</value>
+  </data>
+  <data name="EndTimeGreaterThanCurrentTime" xml:space="preserve">
+    <value>End Time must be greater than Current Time.</value>
+  </data>
+  <data name="EndTimeGreaterThanStartTime" xml:space="preserve">
+    <value>End Time must be greater than Start Time.</value>
+  </data>
+  <data name="EnrollCourse" xml:space="preserve">
+    <value>No assessments found for your login</value>
+  </data>
+  <data name="EnterAllMandatory" xml:space="preserve">
+    <value>Please enter all mandatory fields.</value>
+  </data>
+  <data name="EnterCourseDuration" xml:space="preserve">
+    <value>Please enter Duration.</value>
+  </data>
+  <data name="EnterEmail" xml:space="preserve">
+    <value>Please enter Email address.</value>
+  </data>
+  <data name="EnterSession" xml:space="preserve">
+    <value>Please enter No. of sessions.</value>
+  </data>
+  <data name="EnterTaskUrl" xml:space="preserve">
+    <value>Please Enter Task Url</value>
+  </data>
+  <data name="EnterTextToSearch" xml:space="preserve">
+    <value>Please enter some text to search.</value>
+  </data>
+  <data name="EnterUrls" xml:space="preserve">
+    <value>Please enter No. of URLs.</value>
+  </data>
+  <data name="EnterValidPassword" xml:space="preserve">
+    <value>Please enter valid Password.</value>
+  </data>
+  <data name="EnterValidUsername" xml:space="preserve">
+    <value>Please enter valid User Name.</value>
+  </data>
+  <data name="ErrorOccurred" xml:space="preserve">
+    <value>Error Occurred, please check.</value>
+  </data>
+  <data name="EventRequestExists" xml:space="preserve">
+    <value>Event Request already exists.</value>
+  </data>
+  <data name="EventRequestPopUp" xml:space="preserve">
+    <value>Event Request has been raised successfully and sent for Admin approval.</value>
+  </data>
+  <data name="EventRequestStatus" xml:space="preserve">
+    <value>Event request is already {0}</value>
+  </data>
+  <data name="ExamNameExists" xml:space="preserve">
+    <value>Exam Name already exists.</value>
+  </data>
+  <data name="ExcelProcessedNotImported" xml:space="preserve">
+    <value>Excel file successfully processed and no records are imported.</value>
+  </data>
+  <data name="FeedackSubmitted" xml:space="preserve">
+    <value>Feedback details submitted successfully.</value>
+  </data>
+  <data name="FeedbackAlreadySubmitted" xml:space="preserve">
+    <value>You have already submitted the Feedback.</value>
+  </data>
+  <data name="Feedbackdone" xml:space="preserve">
+    <value>You have already given your feedback.</value>
+  </data>
+  <data name="FeedbackQuestionExists" xml:space="preserve">
+    <value>Feedback question already exists. </value>
+  </data>
+  <data name="FileDeleted" xml:space="preserve">
+    <value>File deleted successfully.</value>
+  </data>
+  <data name="FileNotExists" xml:space="preserve">
+    <value>Sorry, no file exists in the database with this name.</value>
+  </data>
+  <data name="FileNotFound" xml:space="preserve">
+    <value>File not found.</value>
+  </data>
+  <data name="FileTypeToUpload" xml:space="preserve">
+    <value>Please upload pdf,ppt,xls,txt,gif,jpd,jpeg and doc file formats only.</value>
+  </data>
+  <data name="FillCourseSchedule" xml:space="preserve">
+    <value>Please fill the Course Schedule details</value>
+  </data>
+  <data name="FinalAssessmentalExists" xml:space="preserve">
+    <value>Final Assignment for this course already exists</value>
+  </data>
+  <data name="FinalExamPending" xml:space="preserve">
+    <value>Assessment already sent for evaluation.</value>
+  </data>
+  <data name="FinalPassed" xml:space="preserve">
+    <value>You have already passed your Final Assessment.</value>
+  </data>
+  <data name="FlashFile" xml:space="preserve">
+    <value>Please upload Flash files only.</value>
+  </data>
+  <data name="FolderDeleted" xml:space="preserve">
+    <value>Folder deleted successfully.</value>
+  </data>
+  <data name="ForumCreated" xml:space="preserve">
+    <value>Forum Topic created successfully.</value>
+  </data>
+  <data name="ForumInformationSaved" xml:space="preserve">
+    <value>Forum Topic created successfully and sent for Admin approval.</value>
+  </data>
+  <data name="Gateway" xml:space="preserve">
+    <value>Payment Gateway configuration is missing</value>
+  </data>
+  <data name="GotoForgotPassword" xml:space="preserve">
+    <value>Go To Forgot Password Screen !!!</value>
+  </data>
+  <data name="GroupExists" xml:space="preserve">
+    <value>Group Name you entered already exists.</value>
+  </data>
+  <data name="ImageSizeLimit" xml:space="preserve">
+    <value>Profile image size limited to 1 MB.</value>
+  </data>
+  <data name="ImageType" xml:space="preserve">
+    <value>Please select GIF, PNG, JPEG, JPG, BMP files only.</value>
+  </data>
+  <data name="InformationDeleted" xml:space="preserve">
+    <value>Information deleted successfully.</value>
+  </data>
+  <data name="InformationExists" xml:space="preserve">
+    <value>Information already exists.</value>
+  </data>
+  <data name="InformationNotDeleted" xml:space="preserve">
+    <value>Information not deleted.</value>
+  </data>
+  <data name="InformationNotSaved" xml:space="preserve">
+    <value>Information not saved.</value>
+  </data>
+  <data name="InformationNotSavedInDrafts" xml:space="preserve">
+    <value>Your post is not saved in drafts</value>
+  </data>
+  <data name="InformationNotUpdated" xml:space="preserve">
+    <value>Information not updated.</value>
+  </data>
+  <data name="InformationSaved" xml:space="preserve">
+    <value>Information saved successfully.</value>
+  </data>
+  <data name="InformationSavedInDrafts" xml:space="preserve">
+    <value>Your post has been successfully saved in drafts</value>
+  </data>
+  <data name="InformationSentToEmail" xml:space="preserve">
+    <value>Your information has been successfully sent to your Email Id.</value>
+  </data>
+  <data name="InformationUpdated" xml:space="preserve">
+    <value>Information updated successfully.</value>
+  </data>
+  <data name="InternalExamAlreadyPass" xml:space="preserve">
+    <value>You have already passed your Internal Assessment.</value>
+  </data>
+  <data name="InternalExamManditary" xml:space="preserve">
+    <value>Internal Assessment is mandatory to take Final Exam.</value>
+  </data>
+  <data name="InvalidUsernamePassword" xml:space="preserve">
+    <value>Invalid User Name/Password, Please try again.</value>
+  </data>
+  <data name="IsExpired" xml:space="preserve">
+    <value>Product license has been expired.</value>
+  </data>
+  <data name="IssueAdded" xml:space="preserve">
+    <value>Your new Issue added successfully.</value>
+  </data>
+  <data name="JoiningRequestQueued" xml:space="preserve">
+    <value>Your request for joining this group has already queued.</value>
+  </data>
+  <data name="JoiningRequestSent" xml:space="preserve">
+    <value>Thank you for joining the group. A request has been sent to Admin for Approval.</value>
+  </data>
+  <data name="LanguageAllocationUpdatr" xml:space="preserve">
+    <value>Language Allocation updated successfully.</value>
+  </data>
+  <data name="LanguageAlreadyAllocated" xml:space="preserve">
+    <value>Selected Language already allocated.</value>
+  </data>
+  <data name="LastUsedyearLessThanCurrentYear" xml:space="preserve">
+    <value>Last used year should be less than or equals to current year.</value>
+  </data>
+  <data name="LocationAlreadyUsed" xml:space="preserve">
+    <value>Cannot change the status as Location already in use.</value>
+  </data>
+  <data name="LocationExists" xml:space="preserve">
+    <value>Location Name with this already exists.</value>
+  </data>
+  <data name="LoginToAddTopic" xml:space="preserve">
+    <value>Please Login to add a New Topic.</value>
+  </data>
+  <data name="LoginToReply" xml:space="preserve">
+    <value>Please Login to Reply.</value>
+  </data>
+  <data name="MailDeleted" xml:space="preserve">
+    <value>Mail permanently deleted.</value>
+  </data>
+  <data name="MailDeleteFail" xml:space="preserve">
+    <value>Unable to delete mail.</value>
+  </data>
+  <data name="MailFail" xml:space="preserve">
+    <value>Mail sent failed.</value>
+  </data>
+  <data name="MailMarkedRead" xml:space="preserve">
+    <value>Selected mails are marked as read.</value>
+  </data>
+  <data name="MailMarkedReadFail" xml:space="preserve">
+    <value>Unable to mark as read.</value>
+  </data>
+  <data name="MailSelectedDeleted" xml:space="preserve">
+    <value>Selected mails is deleted permanently.</value>
+  </data>
+  <data name="MailSelectedTrashed" xml:space="preserve">
+    <value>Selected mails is moved to Trash.</value>
+  </data>
+  <data name="MailSuccess" xml:space="preserve">
+    <value>Mail Sent successfully.</value>
+  </data>
+  <data name="MailTrashed" xml:space="preserve">
+    <value>Mail has been moved to trash.</value>
+  </data>
+  <data name="MaterialEligiblity" xml:space="preserve">
+    <value>Eligiblity does not meet.</value>
+  </data>
+  <data name="MaterialExists" xml:space="preserve">
+    <value>Material with this name already exists for the particular course you selected.</value>
+  </data>
+  <data name="MaterialUploaded" xml:space="preserve">
+    <value>Material uploaded successfully.</value>
+  </data>
+  <data name="MaximumNoAddressDetails" xml:space="preserve">
+    <value>Maximum only 2 Address details can be added.</value>
+  </data>
+  <data name="MinimumAge" xml:space="preserve">
+    <value>Minimum age should be above 18 years to register.</value>
+  </data>
+  <data name="NewCourseApproval" xml:space="preserve">
+    <value>You have successfully assigned for applied course.</value>
+  </data>
+  <data name="NewsExists" xml:space="preserve">
+    <value>News with this Headline already exists.</value>
+  </data>
+  <data name="Noassessment" xml:space="preserve">
+    <value>No assessment have been created</value>
+  </data>
+  <data name="NoBlogs" xml:space="preserve">
+    <value>No Blogs avilable for you.</value>
+  </data>
+  <data name="NoChapterAssessment" xml:space="preserve">
+    <value>Assessment not available for this chapter. First create Post assessment for this chapter.</value>
+  </data>
+  <data name="NoDetails" xml:space="preserve">
+    <value>No Details available.</value>
+  </data>
+  <data name="NoFeedback" xml:space="preserve">
+    <value>No Feedback questions available.</value>
+  </data>
+  <data name="NoFinalAssessment" xml:space="preserve">
+    <value>No Final Exam has been created</value>
+  </data>
+  <data name="NoFinalAssessmentFound" xml:space="preserve">
+    <value>No Final Assessment result found.</value>
+  </data>
+  <data name="NoFinalExamCreated" xml:space="preserve">
+    <value>No Final Exam has been created</value>
+  </data>
+  <data name="NoInternalexamcreated" xml:space="preserve">
+    <value>No Internal Assessment has been created</value>
+  </data>
+  <data name="NoItemsToMove" xml:space="preserve">
+    <value>No Items to move.</value>
+  </data>
+  <data name="NoMail" xml:space="preserve">
+    <value>No mails available to delete.</value>
+  </data>
+  <data name="Nomaterial" xml:space="preserve">
+    <value>No materials available for the selected course.</value>
+  </data>
+  <data name="NoOfQuestionNotExceed" xml:space="preserve">
+    <value>No. of Questions should not exceed more than {0}.</value>
+  </data>
+  <data name="NoofQuestions" xml:space="preserve">
+    <value>No of Questions should be equal to sum of objective and subjective questions</value>
+  </data>
+  <data name="NoofSubjectiveQuestionsExceed" xml:space="preserve">
+    <value>No of {0} Questions available are {1}.</value>
+  </data>
+  <data name="NoPolls" xml:space="preserve">
+    <value>No Poll question available.</value>
+  </data>
+  <data name="NoPostTrainingAssessmentCreated" xml:space="preserve">
+    <value>No Post Assessment have been created.</value>
+  </data>
+  <data name="NoRecordImported" xml:space="preserve">
+    <value>No records are Imported.</value>
+  </data>
+  <data name="NoRecords" xml:space="preserve">
+    <value>No records to display.</value>
+  </data>
+  <data name="NoReply" xml:space="preserve">
+    <value>No Reply available for this topic.</value>
+  </data>
+  <data name="NoSurveyQuestion" xml:space="preserve">
+    <value>No Survey questions available.</value>
+  </data>
+  <data name="NoSurveyQuestionsAvilable" xml:space="preserve">
+    <value>Add atleast one question to publish survey.</value>
+  </data>
+  <data name="NotUploadExeDllSln" xml:space="preserve">
+    <value>Can not upload exe,dll and sln files.</value>
+  </data>
+  <data name="NotValid" xml:space="preserve">
+    <value>Not a valid request.</value>
+  </data>
+  <data name="NoVCRequestAvailable" xml:space="preserve">
+    <value>No meeting request available with the given link</value>
+  </data>
+  <data name="OldPasswordNotMatched" xml:space="preserve">
+    <value>Old Password is incorrect.</value>
+  </data>
+  <data name="OptionExists" xml:space="preserve">
+    <value>Option{0} is already exists.</value>
+  </data>
+  <data name="OrganizationLogo" xml:space="preserve">
+    <value>Please select Organization Logo</value>
+  </data>
+  <data name="PassingYearNotLessThanCurrentYear" xml:space="preserve">
+    <value>Year of passing should be less than or equals to current year.</value>
+  </data>
+  <data name="PassPost" xml:space="preserve">
+    <value>You have already passed your post assessment.</value>
+  </data>
+  <data name="PasswordChanged" xml:space="preserve">
+    <value>Password changed successful.</value>
+  </data>
+  <data name="PasswordNotMatched" xml:space="preserve">
+    <value>New Password  doesn't match with Confirm Password.</value>
+  </data>
+  <data name="PasswordSentToEmail" xml:space="preserve">
+    <value>Your Password has been sent to your registered email ID.</value>
+  </data>
+  <data name="PasswordUnchanged" xml:space="preserve">
+    <value>Password change unsuccessful.</value>
+  </data>
+  <data name="Paymentrequired" xml:space="preserve">
+    <value>Please do payment to take {0} for this course.</value>
+  </data>
+  <data name="PermissionCheck" xml:space="preserve">
+    <value>You dont have permission to this URL.</value>
+  </data>
+  <data name="PollCreated" xml:space="preserve">
+    <value>Poll created successfully.</value>
+  </data>
+  <data name="PollEdit" xml:space="preserve">
+    <value>Start date should be greater than today to modify a poll.</value>
+  </data>
+  <data name="PollExists" xml:space="preserve">
+    <value>Poll with this name already exists for the selected Course for  the selected Dates.</value>
+  </data>
+  <data name="PollQuestionExists" xml:space="preserve">
+    <value>Poll question already exists.</value>
+  </data>
+  <data name="PollsSubmitted" xml:space="preserve">
+    <value>Poll submitted successfully.</value>
+  </data>
+  <data name="Postnotsaved" xml:space="preserve">
+    <value>Unable to post a comment</value>
+  </data>
+  <data name="PostSaved" xml:space="preserve">
+    <value>Information posted successfully</value>
+  </data>
+  <data name="PracticalPasspercentage" xml:space="preserve">
+    <value>Please set minimum pass percentage</value>
+  </data>
+  <data name="PreAssessmentMandatory" xml:space="preserve">
+    <value>Pre-Assessment test is mandatory for this course.</value>
+  </data>
+  <data name="PreassessmentManditary" xml:space="preserve">
+    <value>Please do Pre Assessment to apply for this course.</value>
+  </data>
+  <data name="PreTestMandatory" xml:space="preserve">
+    <value>Pre Assessment for the Course is mandatory. Please attempt that first.</value>
+  </data>
+  <data name="Primarytrue" xml:space="preserve">
+    <value>Your primary Email has been changed.The Activation link will be sent to the new EmailID.Please click  the link in that email to continue.</value>
+  </data>
+  <data name="PublishBlog" xml:space="preserve">
+    <value>Blogs Published Successfully</value>
+  </data>
+  <data name="PublishSurvey" xml:space="preserve">
+    <value>Survey Published successfully.</value>
+  </data>
+  <data name="QuestionExists" xml:space="preserve">
+    <value>This question already exists for the selected Course and Chapter.</value>
+  </data>
+  <data name="QuestionforinternalassessmentExists" xml:space="preserve">
+    <value>This question already exists for the selected Course.</value>
+  </data>
+  <data name="RaiseIssueAfterCourseAssigned" xml:space="preserve">
+    <value>You can raise issue after assigning to the course.</value>
+  </data>
+  <data name="RecordArchived" xml:space="preserve">
+    <value>Record archived successfully.</value>
+  </data>
+  <data name="RecordCannotArchived" xml:space="preserve">
+    <value>Record cannot be archived.</value>
+  </data>
+  <data name="RecordCannotEdit" xml:space="preserve">
+    <value>This is framework level role, record cannot be edited.</value>
+  </data>
+  <data name="RecordCannotRollback" xml:space="preserve">
+    <value>Record cannot be rollback.</value>
+  </data>
+  <data name="RecordDeleted" xml:space="preserve">
+    <value>Record deleted successfully.</value>
+  </data>
+  <data name="RecordRollbacked" xml:space="preserve">
+    <value>Record rollback successfully.</value>
+  </data>
+  <data name="RegistrationFailSmtp" xml:space="preserve">
+    <value>Unable to register, please contact Administrator.</value>
+  </data>
+  <data name="RegistrationSuccessful" xml:space="preserve">
+    <value>Registration for LMS is successful.</value>
+  </data>
+  <data name="ReplySent" xml:space="preserve">
+    <value>Reply sent successfully.</value>
+  </data>
+  <data name="ReplySubmitted" xml:space="preserve">
+    <value>Reply submitted successfully.</value>
+  </data>
+  <data name="RequestValidationError" xml:space="preserve">
+    <value>Html &amp; Xml code are not allowed. Please provide text without &lt; and &gt;.</value>
+  </data>
+  <data name="RoomAlreadyAssigned" xml:space="preserve">
+    <value>Selected Room already allocated for another batch.</value>
+  </data>
+  <data name="RoomAlreadyExists" xml:space="preserve">
+    <value>Room No with this already exists for that Location.</value>
+  </data>
+  <data name="RoomAlreadyUsed" xml:space="preserve">
+    <value>Cannot change the status as Room already in use.</value>
+  </data>
+  <data name="SaveBeforeCommiting" xml:space="preserve">
+    <value>Please save the details before commiting.</value>
+  </data>
+  <data name="ScheduleAlreadyApplied" xml:space="preserve">
+    <value>You have already applied for this Course.</value>
+  </data>
+  <data name="ScheduleAlreadyAssigned" xml:space="preserve">
+    <value>Schedule is already assigned for the Trainer.</value>
+  </data>
+  <data name="SelectCategory" xml:space="preserve">
+    <value>Please select Course Category before selecting checkbox.</value>
+  </data>
+  <data name="SelectChapterName" xml:space="preserve">
+    <value>Please select Chapter Name.</value>
+  </data>
+  <data name="SelectCourse" xml:space="preserve">
+    <value>Please select Course before selecting Date.</value>
+  </data>
+  <data name="SelectCourseName" xml:space="preserve">
+    <value>Please select Course.</value>
+  </data>
+  <data name="SelectCurrectExcel" xml:space="preserve">
+    <value>Please select the correct Excel Template.</value>
+  </data>
+  <data name="SelectCurrectOption" xml:space="preserve">
+    <value>Please select Correct Option.</value>
+  </data>
+  <data name="SelectDate" xml:space="preserve">
+    <value>Please select Date.</value>
+  </data>
+  <data name="SelectedFolderShared" xml:space="preserve">
+    <value>The selected folder is shared with the Group.</value>
+  </data>
+  <data name="SelectedUserAdded" xml:space="preserve">
+    <value>Selected User has been successfully added to the Group.</value>
+  </data>
+  <data name="SelectExcelFile" xml:space="preserve">
+    <value>Please select the Excel File  (Eg: Excel.xlsx).</value>
+  </data>
+  <data name="SelectFileUpload" xml:space="preserve">
+    <value>Please select a file to upload.</value>
+  </data>
+  <data name="SelectFormToAssign" xml:space="preserve">
+    <value>Please select Forms to assign.</value>
+  </data>
+  <data name="SelectFormToRemove" xml:space="preserve">
+    <value>Please select Forms to remove.</value>
+  </data>
+  <data name="SelectGroup" xml:space="preserve">
+    <value>Please select Group to send mail.</value>
+  </data>
+  <data name="SelectImage" xml:space="preserve">
+    <value>Please select GIF,PNG,JPEG,JPG,BMP files only</value>
+  </data>
+  <data name="SelectLocationToAssign" xml:space="preserve">
+    <value>Please select Location to assign.</value>
+  </data>
+  <data name="SelectLocationToRemove" xml:space="preserve">
+    <value>Please select Location to Remove.</value>
+  </data>
+  <data name="SelectMail" xml:space="preserve">
+    <value>Please select atleast one mail.</value>
+  </data>
+  <data name="SelectOneMaterial" xml:space="preserve">
+    <value>Please assign at least one material to chapter.</value>
+  </data>
+  <data name="SelectOption" xml:space="preserve">
+    <value>Please select any one option.</value>
+  </data>
+  <data name="SelectPoll" xml:space="preserve">
+    <value>Please select Poll question.</value>
+  </data>
+  <data name="SelectProfilePicture" xml:space="preserve">
+    <value>Please select Profile Picture.</value>
+  </data>
+  <data name="SelectTaskToAssign" xml:space="preserve">
+    <value>Please select Tasks to assign.</value>
+  </data>
+  <data name="SelectTaskToRemove" xml:space="preserve">
+    <value>Please select Tasks to remove.</value>
+  </data>
+  <data name="SelectTenant" xml:space="preserve">
+    <value>Please select Tenant.</value>
+  </data>
+  <data name="SelectUser" xml:space="preserve">
+    <value>Please select atleast one user to take the Attendance.</value>
+  </data>
+  <data name="SendEmailError" xml:space="preserve">
+    <value>Unable to send Email, please contact Administator.</value>
+  </data>
+  <data name="SessionConnect" xml:space="preserve">
+    <value>You are already logged in. Do you want to disconnect your previous session?</value>
+  </data>
+  <data name="SessionDisconnect" xml:space="preserve">
+    <value>Your session is disconnected as another user logged in with the same credentials. Try to login again.</value>
+  </data>
+  <data name="SessionsNotBeZero" xml:space="preserve">
+    <value>No. of sessions should not be 0.</value>
+  </data>
+  <data name="SharedFolderCannotDeleted" xml:space="preserve">
+    <value>Shared folder cannot be deleted.</value>
+  </data>
+  <data name="SharedPermissionRemoves" xml:space="preserve">
+    <value>Shared permission for the selectd folder is removed.</value>
+  </data>
+  <data name="SmtpConfigurationNotExist" xml:space="preserve">
+    <value>Unable to send Email, please contact Administrator.</value>
+  </data>
+  <data name="SpaceNotAccepted" xml:space="preserve">
+    <value>Space is not allowed to Save.</value>
+  </data>
+  <data name="StartDateNotGreaterThanEndDate" xml:space="preserve">
+    <value>Start Date should not be greater than End Date.</value>
+  </data>
+  <data name="StartDateNotSelected" xml:space="preserve">
+    <value>Please select Start Date</value>
+  </data>
+  <data name="StartDateShouldGreaterThanEndDate" xml:space="preserve">
+    <value>Start Date should be greater than End Date.</value>
+  </data>
+  <data name="StartTimeGreaterThanCurrentTime" xml:space="preserve">
+    <value>Start Time must be greater than Current Time.</value>
+  </data>
+  <data name="StartTimeNotGreaterThanEndTime" xml:space="preserve">
+    <value>Start Time should not be greater than End Time.</value>
+  </data>
+  <data name="StudentNotUpdateEmailID" xml:space="preserve">
+    <value>Student has not updated Email ID.</value>
+  </data>
+  <data name="SubCountryExists" xml:space="preserve">
+    <value>Sub County with this name already exists.</value>
+  </data>
+  <data name="SubscriptionAccountConsumed" xml:space="preserve">
+    <value>Your no. of user accounts has been consumed.</value>
+  </data>
+  <data name="SubscriptionAccountsLeft" xml:space="preserve">
+    <value>No. of accounts left for the subscription are {0}.</value>
+  </data>
+  <data name="SubscriptionActivate" xml:space="preserve">
+    <value>Subscription activated Successfully.</value>
+  </data>
+  <data name="SubscriptionDeavtivated" xml:space="preserve">
+    <value>Tenant subscription De-Activated successfully.</value>
+  </data>
+  <data name="SuperAdminCannotBeChanged" xml:space="preserve">
+    <value>Selected Tenant is Super Admin, cannot change the status to Inactive.</value>
+  </data>
+  <data name="SurveyAlreadySubmitted" xml:space="preserve">
+    <value>You have already submitted the Survey.</value>
+  </data>
+  <data name="SurveyEndDate" xml:space="preserve">
+    <value>Survey end date should be greater than or equal to today’s date.</value>
+  </data>
+  <data name="SurveyExists" xml:space="preserve">
+    <value>Survey with this name already exists for the selected Course for  the selected Dates.</value>
+  </data>
+  <data name="SurveyPollDateCheck" xml:space="preserve">
+    <value>Survey Or Poll Already exist for selected date.</value>
+  </data>
+  <data name="SurveyQuestionExists" xml:space="preserve">
+    <value>Survey question already exists.</value>
+  </data>
+  <data name="SurveyStartDate" xml:space="preserve">
+    <value>Survey start date should be greater than todays date.</value>
+  </data>
+  <data name="TenantInactive" xml:space="preserve">
+    <value>At present this Tenant is Inactive, please contact administrator.</value>
+  </data>
+  <data name="TenantNotMappedToSubscription" xml:space="preserve">
+    <value>Tenant is not yet mapped to any Subscription.</value>
+  </data>
+  <data name="ThankForTakingExam" xml:space="preserve">
+    <value>Thank you for taking the exam, please click on the End button to submit your answers.
+Do NOT refresh the page or use the back button on the browser.</value>
+  </data>
+  <data name="ThreadLocked" xml:space="preserve">
+    <value>Thread Locked successfully.</value>
+  </data>
+  <data name="ThreadUnlocked" xml:space="preserve">
+    <value>Thread Unlocked successfully.</value>
+  </data>
+  <data name="TimeAlreadyUtilized" xml:space="preserve">
+    <value>This time already utilized.</value>
+  </data>
+  <data name="TimeStudy" xml:space="preserve">
+    <value>Please complete your course study duration time.</value>
+  </data>
+  <data name="ToMail" xml:space="preserve">
+    <value>Please enter To Mail address.</value>
+  </data>
+  <data name="TopicExists" xml:space="preserve">
+    <value>This Forum Topic already exists fot the selected course.</value>
+  </data>
+  <data name="TrainerAlreadyAssignedToCourse" xml:space="preserve">
+    <value>Trainer is already assigned to the Course.</value>
+  </data>
+  <data name="TrainerAlreadyScheduled" xml:space="preserve">
+    <value>Trainer already allocated to the Schedule for the selected Date and Time.</value>
+  </data>
+  <data name="TrainerEndDateNotGreaterThanScheduleEndDate" xml:space="preserve">
+    <value>Trainer End Date should not be greater than Schedule End Date.</value>
+  </data>
+  <data name="TrainerEndTimeNotGreaterThanScheduleEndTime" xml:space="preserve">
+    <value>Trainer End Time should not be greater than Schedule End Time.</value>
+  </data>
+  <data name="TrainerStartDateNotGreaterThanEndDate" xml:space="preserve">
+    <value>Trainer Start Date should not be greater than Trainer End Date.</value>
+  </data>
+  <data name="TrainerStartDateNotLessThanScheduleStartDate" xml:space="preserve">
+    <value>Trainer Start Date should not be less than Schedule Start Date.</value>
+  </data>
+  <data name="TrainerStartTimeNotGreaterThanEndTime" xml:space="preserve">
+    <value>Trainer Start Time should not be greater than Trainer End Time.</value>
+  </data>
+  <data name="TrainerStartTimeNotLessThanScheduleStartTime" xml:space="preserve">
+    <value>Trainer Start Time should not be less than Schedule Start Time.</value>
+  </data>
+  <data name="TryAgain" xml:space="preserve">
+    <value>Please try again.</value>
+  </data>
+  <data name="UnableToAssignAssessor" xml:space="preserve">
+    <value>Unable to assign Assessor.</value>
+  </data>
+  <data name="UnableToJoin" xml:space="preserve">
+    <value>Unable to join the Group.</value>
+  </data>
+  <data name="UnableToProcessVcRequest" xml:space="preserve">
+    <value>Unable to process the VC Request.</value>
+  </data>
+  <data name="UnableToRetreivePassword" xml:space="preserve">
+    <value>Unable to retreive Password.</value>
+  </data>
+  <data name="UnableToSavedPDF" xml:space="preserve">
+    <value>Unable to save the content to Pdf.</value>
+  </data>
+  <data name="UnableToShareFolder" xml:space="preserve">
+    <value>Unable to share the selected folder with the Group.</value>
+  </data>
+  <data name="UnAuthoriseduserForApp" xml:space="preserve">
+    <value>You are not authorized to access this application.</value>
+  </data>
+  <data name="UnauthorizedUser" xml:space="preserve">
+    <value>You dont have privilege to access this page.</value>
+  </data>
+  <data name="UpcomingEventExists" xml:space="preserve">
+    <value>Upcoming Event with this Headline already exists.</value>
+  </data>
+  <data name="UrlSubscriptionAlreadyGenerated" xml:space="preserve">
+    <value>Custom Urls for subscription account already generated.</value>
+  </data>
+  <data name="UserDataError" xml:space="preserve">
+    <value>Unable to retrieve data, please contact Administrator.</value>
+  </data>
+  <data name="UsergroupNotBeStudent" xml:space="preserve">
+    <value>User Group cannot be student.</value>
+  </data>
+  <data name="UserRejected" xml:space="preserve">
+    <value>User Rejected successfully.</value>
+  </data>
+  <data name="UserRemoved" xml:space="preserve">
+    <value>You have been removed from this Group.</value>
+  </data>
+  <data name="ValidatePracticalPercentage" xml:space="preserve">
+    <value>Practical percentage cannot be 0</value>
+  </data>
+  <data name="ValidateTheoryLab" xml:space="preserve">
+    <value>Sum of Theory and Practical percentage should be 100</value>
+  </data>
+  <data name="ValidCourseBatch" xml:space="preserve">
+    <value>Please select Course Batch</value>
+  </data>
+  <data name="ValidVCRequest" xml:space="preserve">
+    <value>Please provide valid VC request</value>
+  </data>
+  <data name="VCnotProcessed" xml:space="preserve">
+    <value>Unable to process the VC request</value>
+  </data>
+  <data name="VCRequestApproved" xml:space="preserve">
+    <value>VC Request has been approved.</value>
+  </data>
+  <data name="VCRequestRejected" xml:space="preserve">
+    <value>VC Request has been rejected.</value>
+  </data>
+  <data name="VerifyMail" xml:space="preserve">
+    <value>Verify your Email\n Verification link has been sent to your email</value>
+  </data>
+  <data name="VideoConferenceUrlNotConfigure" xml:space="preserve">
+    <value>Video Conference service URL is not configured.</value>
+  </data>
+  <data name="VideoType" xml:space="preserve">
+    <value>Please upload .amv, .mp4 video formats only.</value>
+  </data>
+  <data name="ViewAfterCourseAssigned" xml:space="preserve">
+    <value>You can only view the details after assigning a course.</value>
+  </data>
+  <data name="WebinarUnavailable" xml:space="preserve">
+    <value>Webinar currently unavailable.</value>
+  </data>
+</root>
